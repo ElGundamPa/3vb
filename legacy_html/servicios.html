@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios — 3VB Legal</title>
+    <meta name="description" content="Servicios especializados en ciberfraude, recuperación de fondos y auditoría de evidencia digital.">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:url" content="https://www.3vb.legal/servicios.html">
+    <meta property="og:site_name" content="3VB">
+    <meta property="og:title" content="Servicios — 3VB Legal">
+    <meta property="og:description" content="Servicios especializados en ciberfraude, recuperación de fondos y auditoría de evidencia digital.">
+    <meta property="og:image" content="/og.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Servicios — 3VB Legal">
+    <meta name="twitter:description" content="Servicios especializados en ciberfraude, recuperación de fondos y auditoría de evidencia digital.">
+    <meta name="twitter:image" content="/og.png">
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-gold': '#D4AF37',
+                        'brand-ink-900': '#1a1a1a',
+                        'brand-ink-800': '#2d2d2d',
+                        'brand-ink-700': '#404040',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .scroll-animate.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header data-include="header"></header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="py-16 bg-gradient-to-br from-emerald-700 to-emerald-900 text-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 scroll-animate">
+                        Nuestros Servicios Especializados
+                    </h1>
+                    <p class="text-xl text-emerald-100 scroll-animate" style="animation-delay: 0.1s;">
+                        Soluciones legales especializadas para proteger y recuperar tu dinero en el mundo digital
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4 scroll-animate">Servicios Disponibles</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto scroll-animate" style="animation-delay: 0.1s;">
+                        Selecciona el servicio que necesitas. Puedes elegir tu abogada/o para cada servicio.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Recuperación de Fondos -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border hover-lift scroll-animate" id="recuperacion">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4zM18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Recuperación de Fondos</h3>
+                        <p class="text-gray-600 mb-6">Recuperamos tu dinero perdido en estafas digitales, criptomonedas y fraudes de inversión.</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Análisis forense de transacciones
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Seguimiento de fondos en blockchain
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Proceso legal internacional
+                            </div>
+                        </div>
+                        <div class="text-2xl font-bold text-emerald-500 mb-4">Desde $2,500 USD</div>
+                        <a href="/contacto.html" class="block w-full text-center bg-emerald-500 text-white py-3 rounded-lg hover:bg-emerald-600 transition-colors">
+                            Consultar Servicio
+                        </a>
+                    </div>
+
+                    <!-- Auditoría de Evidencia Digital -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border hover-lift scroll-animate" style="animation-delay: 0.1s;" id="auditoria">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Auditoría de Evidencia Digital</h3>
+                        <p class="text-gray-600 mb-6">Análisis forense completo de evidencia digital para casos de ciberfraude.</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Análisis de metadatos
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Verificación de autenticidad
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Reporte pericial
+                            </div>
+                        </div>
+                        <div class="text-2xl font-bold text-emerald-500 mb-4">Desde $1,500 USD</div>
+                        <a href="/contacto.html" class="block w-full text-center bg-emerald-500 text-white py-3 rounded-lg hover:bg-emerald-600 transition-colors">
+                            Consultar Servicio
+                        </a>
+                    </div>
+
+                    <!-- Asesoría Legal -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border hover-lift scroll-animate" style="animation-delay: 0.2s;" id="asesoria">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Asesoría Legal Especializada</h3>
+                        <p class="text-gray-600 mb-6">Consultoría legal especializada en derecho digital y ciberfraude.</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Consulta inicial gratuita
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Estrategia legal personalizada
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Acompañamiento legal
+                            </div>
+                        </div>
+                        <div class="text-2xl font-bold text-emerald-500 mb-4">Desde $500 USD</div>
+                        <a href="/contacto.html" class="block w-full text-center bg-emerald-500 text-white py-3 rounded-lg hover:bg-emerald-600 transition-colors">
+                            Consultar Servicio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4 scroll-animate">Nuestro Proceso</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto scroll-animate" style="animation-delay: 0.1s;">
+                        Cómo trabajamos para recuperar tu dinero
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="text-center scroll-animate">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">1</div>
+                        <h3 class="text-lg font-semibold mb-2">Consulta Inicial</h3>
+                        <p class="text-gray-600 text-sm">Evaluamos tu caso y determinamos la viabilidad de recuperación</p>
+                    </div>
+
+                    <div class="text-center scroll-animate" style="animation-delay: 0.1s;">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">2</div>
+                        <h3 class="text-lg font-semibold mb-2">Análisis Forense</h3>
+                        <p class="text-gray-600 text-sm">Recopilamos y analizamos toda la evidencia digital disponible</p>
+                    </div>
+
+                    <div class="text-center scroll-animate" style="animation-delay: 0.2s;">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">3</div>
+                        <h3 class="text-lg font-semibold mb-2">Estrategia Legal</h3>
+                        <p class="text-gray-600 text-sm">Desarrollamos la mejor estrategia legal para tu caso específico</p>
+                    </div>
+
+                    <div class="text-center scroll-animate" style="animation-delay: 0.3s;">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">4</div>
+                        <h3 class="text-lg font-semibold mb-2">Recuperación</h3>
+                        <p class="text-gray-600 text-sm">Ejecutamos la estrategia y trabajamos para recuperar tu dinero</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-emerald-500 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-6 scroll-animate">¿Necesitas ayuda con tu caso?</h2>
+                <p class="text-xl text-emerald-100 mb-8 scroll-animate" style="animation-delay: 0.1s;">
+                    Agenda una consulta gratuita para evaluar tu caso
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="/contacto.html" class="inline-flex items-center rounded-2xl bg-white px-8 py-4 text-emerald-500 font-semibold shadow-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105">
+                        Consulta Gratuita
+                    </a>
+                    <a href="/calculadora.html" class="inline-flex items-center rounded-2xl border-2 border-white px-8 py-4 text-white font-semibold hover:bg-white hover:text-emerald-500 transition-all duration-300 hover:scale-105">
+                        Calculadora de Recuperación
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer data-include="footer"></footer>
+
+    <!-- Scripts -->
+    <script src="/js/app.js"></script>
+</body>
+</html>

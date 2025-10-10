@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros — 3VB Legal</title>
+    <meta name="description" content="Conoce la historia, misión, visión y al equipo detrás de 3VB, abogados especialistas en ciberfraude y recuperación de fondos.">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:url" content="https://www.3vb.legal/nosotros.html">
+    <meta property="og:site_name" content="3VB">
+    <meta property="og:title" content="Nosotros — 3VB Legal">
+    <meta property="og:description" content="Conoce la historia, misión, visión y al equipo detrás de 3VB, abogados especialistas en ciberfraude y recuperación de fondos.">
+    <meta property="og:image" content="/og.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nosotros — 3VB Legal">
+    <meta name="twitter:description" content="Conoce la historia, misión, visión y al equipo detrás de 3VB, abogados especialistas en ciberfraude y recuperación de fondos.">
+    <meta name="twitter:image" content="/og.png">
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-gold': '#D4AF37',
+                        'brand-ink-900': '#1a1a1a',
+                        'brand-ink-800': '#2d2d2d',
+                        'brand-ink-700': '#404040',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .scroll-animate.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header data-include="header"></header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="py-16 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 scroll-animate">
+                        Nosotros
+                    </h1>
+                    <p class="text-xl text-gray-300 scroll-animate" style="animation-delay: 0.1s;">
+                        Conoce al equipo de expertos que está transformando la recuperación de fondos en el mundo digital
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historia -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="scroll-animate">
+                        <h2 class="text-3xl font-bold mb-6">Nuestra Historia</h2>
+                        <p class="text-gray-600 mb-6">
+                            Fundada en 2019, 3VB nació de la necesidad de proteger a las personas en el mundo digital. 
+                            Nuestros fundadores, con más de 15 años de experiencia en derecho y tecnología, 
+                            identificaron una brecha crítica en la protección legal contra el ciberfraude.
+                        </p>
+                        <p class="text-gray-600 mb-6">
+                            Desde entonces, hemos recuperado más de $2.5 millones USD para nuestros clientes y 
+                            hemos establecido alianzas estratégicas con instituciones financieras y autoridades 
+                            regulatorias en múltiples países.
+                        </p>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-emerald-500 mb-2">
+                                    <span class="counter" data-target="2019">0</span>
+                                </div>
+                                <div class="text-sm text-gray-600">Fundación</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-emerald-500 mb-2">
+                                    <span class="counter" data-target="500">0</span><span class="ml-1">+</span>
+                                </div>
+                                <div class="text-sm text-gray-600">Casos Exitosos</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="scroll-animate" style="animation-delay: 0.1s;">
+                        <div class="bg-gray-100 rounded-lg p-8 hover-lift">
+                            <div class="w-24 h-24 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                                <span class="text-white font-bold text-2xl">3VB</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-center mb-4">Nuestro Compromiso</h3>
+                            <p class="text-gray-600 text-center">
+                                "Defendemos tu dinero en el mundo digital con la misma pasión y dedicación 
+                                que ponemos en proteger a nuestros propios familiares."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Misión y Visión -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="scroll-animate">
+                        <div class="bg-white p-8 rounded-lg shadow-lg hover-lift">
+                            <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mb-6">
+                                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-4">Nuestra Misión</h3>
+                            <p class="text-gray-600">
+                                Proporcionar servicios legales especializados en ciberfraude y recuperación de fondos, 
+                                utilizando tecnología de vanguardia y experiencia legal para proteger y recuperar 
+                                el dinero de nuestros clientes en el mundo digital.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="scroll-animate" style="animation-delay: 0.1s;">
+                        <div class="bg-white p-8 rounded-lg shadow-lg hover-lift">
+                            <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mb-6">
+                                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    <path fill-rule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 010-1.113zM17.25 12a5.25 5.25 0 11-10.5 0 5.25 5.25 0 0110.5 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-4">Nuestra Visión</h3>
+                            <p class="text-gray-600">
+                                Ser el bufete líder en América Latina en la recuperación de fondos por ciberfraude, 
+                                estableciendo nuevos estándares en la protección legal digital y contribuyendo 
+                                a un ecosistema financiero más seguro y transparente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equipo -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4 scroll-animate">Nuestro Equipo</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto scroll-animate" style="animation-delay: 0.1s;">
+                        Expertos en derecho digital, tecnología y recuperación de fondos
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="text-center scroll-animate hover-lift">
+                        <div class="w-32 h-32 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-white font-bold text-3xl">AV</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Dr. Alejandro Vargas</h3>
+                        <p class="text-emerald-500 font-medium mb-3">Socio Fundador</p>
+                        <p class="text-gray-600 text-sm">
+                            Especialista en ciberfraude con más de 15 años de experiencia. 
+                            Doctor en Derecho por la UNAM y certificado en ciberseguridad.
+                        </p>
+                    </div>
+                    
+                    <div class="text-center scroll-animate hover-lift" style="animation-delay: 0.1s;">
+                        <div class="w-32 h-32 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-white font-bold text-3xl">SR</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Lic. Sofía Ramírez</h3>
+                        <p class="text-emerald-500 font-medium mb-3">Directora de Litigios</p>
+                        <p class="text-gray-600 text-sm">
+                            Experta en recuperación de fondos internacionales. 
+                            Maestría en Derecho Internacional y especialización en blockchain.
+                        </p>
+                    </div>
+                    
+                    <div class="text-center scroll-animate hover-lift" style="animation-delay: 0.2s;">
+                        <div class="w-32 h-32 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-white font-bold text-3xl">CM</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Ing. Carlos Mendoza</h3>
+                        <p class="text-emerald-500 font-medium mb-3">Director de Tecnología</p>
+                        <p class="text-gray-600 text-sm">
+                            Ingeniero en Sistemas con especialización en análisis forense digital. 
+                            Certificado en auditoría de evidencia digital.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Valores -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4 scroll-animate">Nuestros Valores</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto scroll-animate" style="animation-delay: 0.1s;">
+                        Los principios que guían nuestro trabajo y definen nuestra cultura
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center scroll-animate hover-lift">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Transparencia</h3>
+                        <p class="text-gray-600 text-sm">Comunicación clara y honesta en cada paso del proceso</p>
+                    </div>
+                    
+                    <div class="text-center scroll-animate hover-lift" style="animation-delay: 0.1s;">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Excelencia</h3>
+                        <p class="text-gray-600 text-sm">Compromiso con la más alta calidad en nuestros servicios</p>
+                    </div>
+                    
+                    <div class="text-center scroll-animate hover-lift" style="animation-delay: 0.2s;">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Empatía</h3>
+                        <p class="text-gray-600 text-sm">Entendemos el impacto emocional y financiero del fraude</p>
+                    </div>
+                    
+                    <div class="text-center scroll-animate hover-lift" style="animation-delay: 0.3s;">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Innovación</h3>
+                        <p class="text-gray-600 text-sm">Utilizamos tecnología de vanguardia para obtener resultados</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-emerald-500 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-6 scroll-animate">¿Necesitas ayuda con tu caso?</h2>
+                <p class="text-xl text-emerald-100 mb-8 scroll-animate" style="animation-delay: 0.1s;">
+                    Conoce más sobre nuestros servicios y agenda una consulta gratuita
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="/servicios.html" class="inline-flex items-center rounded-2xl bg-white px-8 py-4 text-emerald-500 font-semibold shadow-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105">
+                        Ver Servicios
+                    </a>
+                    <a href="/contacto.html" class="inline-flex items-center rounded-2xl border-2 border-white px-8 py-4 text-white font-semibold hover:bg-white hover:text-emerald-500 transition-all duration-300 hover:scale-105">
+                        Contactar
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer data-include="footer"></footer>
+
+    <!-- Scripts -->
+    <script src="/js/app.js"></script>
+    <script src="/js/counter.js"></script>
+</body>
+</html>

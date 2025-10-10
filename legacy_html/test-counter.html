@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Counter Animation — 3VB Legal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .scroll-animate.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Simple -->
+    <header class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">3VB</span>
+                    </div>
+                    <span class="font-bold text-xl">3VB Legal</span>
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#inicio" class="hover:text-emerald-400">Inicio</a>
+                    <a href="#servicios" class="hover:text-emerald-400">Servicios</a>
+                    <a href="#contacto" class="hover:text-emerald-400">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="py-16 bg-gradient-to-br from-emerald-700 to-emerald-900 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                    Test de Animación de Contadores
+                </h1>
+                <p class="text-xl text-emerald-100">
+                    Desplázate hacia abajo para ver las animaciones
+                </p>
+            </div>
+        </section>
+
+        <!-- Stats Strip con Contadores -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4">Métricas Animadas</h2>
+                    <p class="text-gray-600">Los números se animan cuando entran en pantalla</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="scroll-animate">
+                        <div class="text-3xl md:text-4xl font-bold text-emerald-500 mb-2">
+                            <span class="counter" data-target="1500">0</span><span class="ml-1">+</span>
+                        </div>
+                        <div class="text-gray-600">Casos Exitosos</div>
+                    </div>
+                    <div class="scroll-animate" style="animation-delay: 0.1s;">
+                        <div class="text-3xl md:text-4xl font-bold text-emerald-500 mb-2">
+                            $<span class="counter" data-target="2.5">0</span>M
+                        </div>
+                        <div class="text-gray-600">USD Recuperados</div>
+                    </div>
+                    <div class="scroll-animate" style="animation-delay: 0.2s;">
+                        <div class="text-3xl md:text-4xl font-bold text-emerald-500 mb-2">
+                            <span class="counter" data-target="8">0</span><span class="ml-1">+</span>
+                        </div>
+                        <div class="text-gray-600">Años de Experiencia</div>
+                    </div>
+                    <div class="scroll-animate" style="animation-delay: 0.3s;">
+                        <div class="text-3xl md:text-4xl font-bold text-emerald-500 mb-2">
+                            <span class="counter" data-target="4">0</span>
+                        </div>
+                        <div class="text-gray-600">Meses Promedio</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de prueba adicional -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4">Más Contadores</h2>
+                    <p class="text-gray-600">Para probar que funciona en diferentes secciones</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="scroll-animate">
+                        <div class="text-2xl font-bold text-emerald-500 mb-2">
+                            <span class="counter" data-target="2019">0</span>
+                        </div>
+                        <div class="text-gray-600">Año de Fundación</div>
+                    </div>
+                    <div class="scroll-animate" style="animation-delay: 0.1s;">
+                        <div class="text-2xl font-bold text-emerald-500 mb-2">
+                            <span class="counter" data-target="500">0</span><span class="ml-1">+</span>
+                        </div>
+                        <div class="text-gray-600">Clientes Satisfechos</div>
+                    </div>
+                    <div class="scroll-animate" style="animation-delay: 0.2s;">
+                        <div class="text-2xl font-bold text-emerald-500 mb-2">
+                            <span class="counter" data-target="95">0</span><span class="ml-1">%</span>
+                        </div>
+                        <div class="text-gray-600">Tasa de Éxito</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Simple -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 3VB Legal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/counter.js"></script>
+    <script>
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all scroll-animate elements
+        const animatedElements = document.querySelectorAll('.scroll-animate');
+        animatedElements.forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
+

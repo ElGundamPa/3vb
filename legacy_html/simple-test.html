@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { margin: 0; padding: 20px; }
+        .counter-section { margin: 50px 0; padding: 50px; background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h1 class="text-3xl font-bold mb-8">Test de Contadores Animados</h1>
+    
+    <div class="counter-section">
+        <h2 class="text-2xl font-bold mb-4">Contadores Básicos</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-4xl font-bold text-emerald-500 mb-2">
+                    <span class="counter" data-target="1500">0</span><span>+</span>
+                </div>
+                <div class="text-gray-600">Casos</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-emerald-500 mb-2">
+                    $<span class="counter" data-target="2.5">0</span>M
+                </div>
+                <div class="text-gray-600">USD</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-emerald-500 mb-2">
+                    <span class="counter" data-target="8">0</span><span>+</span>
+                </div>
+                <div class="text-gray-600">Años</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-emerald-500 mb-2">
+                    <span class="counter" data-target="4">0</span>
+                </div>
+                <div class="text-gray-600">Meses</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="counter-section">
+        <h2 class="text-2xl font-bold mb-4">Más Contadores</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div>
+                <div class="text-3xl font-bold text-blue-500 mb-2">
+                    <span class="counter" data-target="2019">0</span>
+                </div>
+                <div class="text-gray-600">Año</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-blue-500 mb-2">
+                    <span class="counter" data-target="500">0</span><span>+</span>
+                </div>
+                <div class="text-gray-600">Clientes</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-blue-500 mb-2">
+                    <span class="counter" data-target="95">0</span><span>%</span>
+                </div>
+                <div class="text-gray-600">Éxito</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Counter Animation Script
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("Counter script loaded");
+            const counters = document.querySelectorAll(".counter");
+            console.log("Found counters:", counters.length);
+
+            const animateCount = (el) => {
+                console.log("Animating counter:", el);
+                const target = parseFloat(el.dataset.target);
+                console.log("Target:", target);
+                
+                let start = 0;
+                const duration = 3000; // 3 segundos
+                const stepTime = 16; // ~60fps
+                const steps = Math.ceil(duration / stepTime);
+                const increment = target / steps;
+                let current = 0;
+
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(timer);
+                        console.log("Animation completed for:", target);
+                    }
+                    
+                    // Formatear el número según si es entero o decimal
+                    if (current % 1 === 0) {
+                        el.textContent = Math.floor(current);
+                    } else {
+                        el.textContent = current.toFixed(1);
+                    }
+                }, stepTime);
+            };
+
+            // Intersection Observer para activar solo cuando aparece en pantalla
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    console.log("Intersection observed:", entry.isIntersecting, entry.target);
+                    if (entry.isIntersecting) {
+                        console.log("Starting animation for:", entry.target);
+                        animateCount(entry.target);
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, { 
+                threshold: 0.5,
+                rootMargin: '0px 0px -50px 0px'
+            });
+
+            counters.forEach(counter => {
+                console.log("Observing counter:", counter);
+                observer.observe(counter);
+            });
+            
+            console.log("Counter script setup complete");
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,192 @@
+<!-- Utility Bar -->
+<div class="bg-gray-900 text-white py-2">
+  <div class="container mx-auto px-4 flex justify-between items-center text-sm">
+    <div class="flex items-center space-x-4">
+      <a href="tel:+525512345678" class="flex items-center space-x-1 hover:text-emerald-400 transition-colors">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+        </svg>
+        <span>+52 55 1234 5678</span>
+      </a>
+    </div>
+    
+    <div class="flex items-center space-x-4">
+      <a href="https://twitter.com/3vb_legal" target="_blank" rel="noopener" aria-label="Síguenos en Twitter" class="hover:text-emerald-400 transition-colors">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+      <a href="https://linkedin.com/company/3vb-legal" target="_blank" rel="noopener" aria-label="Síguenos en LinkedIn" class="hover:text-emerald-400 transition-colors">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+      </a>
+      <a href="/contacto.html" class="hover:text-emerald-400 transition-colors">Contacto</a>
+      <button id="search-toggle" class="hover:text-emerald-400 transition-colors" aria-label="Buscar">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Primary Navigation -->
+<nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200 shadow-sm">
+  <div class="container mx-auto px-4">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo -->
+      <a href="/" class="flex items-center space-x-2">
+        <div class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">3VB</span>
+        </div>
+        <span class="font-bold text-xl text-gray-900">3VB Legal</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden lg:flex items-center space-x-8">
+        <a href="/" class="nav-link relative group">
+          Inicio
+          <span class="nav-underline"></span>
+        </a>
+        <a href="/nosotros.html" class="nav-link relative group">
+          Nosotros
+          <span class="nav-underline"></span>
+        </a>
+        
+        <!-- Services Dropdown -->
+        <div class="relative group">
+          <a href="/servicios.html" class="nav-link relative group flex items-center space-x-1">
+            Servicios
+            <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+            <span class="nav-underline"></span>
+          </a>
+          <div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
+            <div class="py-2">
+              <a href="/servicios.html#recuperacion" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Recuperación de Fondos</a>
+              <a href="/servicios.html#auditoria" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Auditoría Digital</a>
+              <a href="/servicios.html#asesoria" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Asesoría Legal</a>
+            </div>
+          </div>
+        </div>
+        
+        <a href="/calculadora.html" class="nav-link relative group">
+          Calculadora
+          <span class="nav-underline"></span>
+        </a>
+        <a href="/blog.html" class="nav-link relative group">
+          Blog
+          <span class="nav-underline"></span>
+        </a>
+        <a href="/contacto.html" class="nav-link relative group">
+          Contacto
+          <span class="nav-underline"></span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-toggle" class="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors" aria-label="Abrir menú">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div id="mobile-menu" class="lg:hidden fixed inset-y-0 right-0 w-80 bg-white shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out z-50">
+    <div class="flex flex-col h-full">
+      <!-- Mobile Header -->
+      <div class="flex items-center justify-between p-4 border-b border-gray-200">
+        <div class="flex items-center space-x-2">
+          <div class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
+            <span class="text-white font-bold text-lg">3VB</span>
+          </div>
+          <span class="font-bold text-xl text-gray-900">3VB Legal</span>
+        </div>
+        <button id="mobile-menu-close" class="p-2 rounded-lg hover:bg-gray-100 transition-colors" aria-label="Cerrar menú">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Navigation Links -->
+      <nav class="flex-1 px-4 py-6 space-y-2">
+        <a href="/" class="block py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Inicio</a>
+        <a href="/nosotros.html" class="block py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Nosotros</a>
+        <a href="/servicios.html" class="block py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Servicios</a>
+        <a href="/calculadora.html" class="block py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Calculadora</a>
+        <a href="/blog.html" class="block py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Blog</a>
+        <a href="/contacto.html" class="block py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 hover:text-emerald-500 transition-colors">Contacto</a>
+      </nav>
+
+      <!-- Mobile Footer -->
+      <div class="p-4 border-t border-gray-200">
+        <div class="flex space-x-4">
+          <a href="https://twitter.com/3vb_legal" target="_blank" rel="noopener" class="p-2 rounded-lg hover:bg-gray-100 transition-colors">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a href="https://linkedin.com/company/3vb-legal" target="_blank" rel="noopener" class="p-2 rounded-lg hover:bg-gray-100 transition-colors">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Overlay -->
+  <div id="mobile-overlay" class="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-40 opacity-0 invisible transition-all duration-300"></div>
+</nav>
+
+<!-- Search Overlay -->
+<div id="search-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-50 opacity-0 invisible transition-all duration-300">
+  <div class="flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl">
+      <div class="p-6">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-lg font-semibold">Buscar</h3>
+          <button id="search-close" class="p-2 rounded-lg hover:bg-gray-100 transition-colors" aria-label="Cerrar búsqueda">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+        <div class="relative">
+          <input type="text" id="search-input" placeholder="Buscar servicios, información..." class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none">
+          <button class="absolute right-3 top-1/2 transform -translate-y-1/2 p-2">
+            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Navigation Styles */
+.nav-link {
+  @apply text-gray-700 hover:text-emerald-500 transition-colors duration-200;
+}
+
+.nav-underline {
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 transition-all duration-300;
+}
+
+.nav-link:hover .nav-underline,
+.nav-link.active .nav-underline {
+  @apply w-full;
+}
+
+.nav-link.active {
+  @apply text-emerald-500;
+}
+</style>

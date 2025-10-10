@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Recuperación — 3VB Legal</title>
+    <meta name="description" content="Calcula tus posibilidades de recuperar fondos perdidos por ciberfraude con nuestra herramienta interactiva.">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:url" content="https://www.3vb.legal/calculadora.html">
+    <meta property="og:site_name" content="3VB">
+    <meta property="og:title" content="Calculadora de Recuperación — 3VB Legal">
+    <meta property="og:description" content="Calcula tus posibilidades de recuperar fondos perdidos por ciberfraude con nuestra herramienta interactiva.">
+    <meta property="og:image" content="/og.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Calculadora de Recuperación — 3VB Legal">
+    <meta name="twitter:description" content="Calcula tus posibilidades de recuperar fondos perdidos por ciberfraude con nuestra herramienta interactiva.">
+    <meta name="twitter:image" content="/og.png">
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-gold': '#D4AF37',
+                        'brand-ink-900': '#1a1a1a',
+                        'brand-ink-800': '#2d2d2d',
+                        'brand-ink-700': '#404040',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .scroll-animate.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .calculator-input {
+            transition: all 0.3s ease;
+        }
+        
+        .calculator-input:focus {
+            transform: scale(1.02);
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header data-include="header"></header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="py-16 bg-gradient-to-br from-emerald-700 to-emerald-900 text-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 scroll-animate">
+                        Calcula tu Recuperación
+                    </h1>
+                    <p class="text-xl text-emerald-100 scroll-animate" style="animation-delay: 0.1s;">
+                        Estima tus posibilidades de recuperar fondos perdidos por ciberfraude.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <div class="bg-white rounded-xl p-8 shadow-lg border scroll-animate">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-12 h-12 bg-emerald-500 rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-3 3a1 1 0 100 2h.01a1 1 0 100-2H10zm-4 1a1 1 0 011-1h.01a1 1 0 110 2H7a1 1 0 01-1-1zm1-4a1 1 0 100 2h.01a1 1 0 100-2H7zm2 0a1 1 0 100 2h.01a1 1 0 100-2H9zm2 0a1 1 0 100 2h.01a1 1 0 100-2h-.01z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold">Calculadora de Recuperación</h2>
+                    </div>
+                    
+                    <form id="calculator-form" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Monto perdido -->
+                            <div>
+                                <label for="amount-lost" class="block text-sm font-medium text-gray-700 mb-2">
+                                    Monto perdido (USD)
+                                </label>
+                                <input 
+                                    type="number" 
+                                    id="amount-lost" 
+                                    name="amount-lost"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 calculator-input"
+                                    placeholder="Ej: 5000"
+                                    required
+                                />
+                            </div>
+                            
+                            <!-- Días transcurridos -->
+                            <div>
+                                <label for="time-elapsed" class="block text-sm font-medium text-gray-700 mb-2">
+                                    Días transcurridos
+                                </label>
+                                <input 
+                                    type="number" 
+                                    id="time-elapsed" 
+                                    name="time-elapsed"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 calculator-input"
+                                    placeholder="Ej: 30"
+                                    required
+                                />
+                            </div>
+                            
+                            <!-- Calidad de evidencia -->
+                            <div>
+                                <label for="evidence-quality" class="block text-sm font-medium text-gray-700 mb-2">
+                                    Calidad de evidencia
+                                </label>
+                                <select 
+                                    id="evidence-quality" 
+                                    name="evidence-quality"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 calculator-input"
+                                >
+                                    <option value="low">Baja (solo capturas)</option>
+                                    <option value="medium" selected>Media (capturas + metadatos)</option>
+                                    <option value="high">Alta (evidencia completa)</option>
+                                </select>
+                            </div>
+                            
+                            <!-- Jurisdicción -->
+                            <div>
+                                <label for="jurisdiction" class="block text-sm font-medium text-gray-700 mb-2">
+                                    Jurisdicción
+                                </label>
+                                <select 
+                                    id="jurisdiction" 
+                                    name="jurisdiction"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 calculator-input"
+                                >
+                                    <option value="local" selected>Local</option>
+                                    <option value="international">Internacional</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Botón de cálculo -->
+                        <div class="text-center">
+                            <button 
+                                type="submit" 
+                                class="inline-flex items-center px-8 py-4 bg-emerald-500 text-white font-semibold rounded-lg hover:bg-emerald-600 transition-all duration-300 hover:scale-105"
+                            >
+                                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                Calcular Recuperación
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <!-- Resultados -->
+                    <div id="results" class="mt-8 p-6 bg-gray-50 rounded-lg hidden">
+                        <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                            <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            Resultados Estimados
+                        </h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="bg-white p-4 rounded-lg">
+                                <div class="text-sm text-gray-600 mb-1">Tasa de éxito estimada</div>
+                                <div id="success-rate" class="text-2xl font-bold text-emerald-500">--</div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg">
+                                <div class="text-sm text-gray-600 mb-1">Costo estimado</div>
+                                <div id="estimated-cost" class="text-2xl font-bold text-gray-900">--</div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg">
+                                <div class="text-sm text-gray-600 mb-1">Servicio recomendado</div>
+                                <div id="recommended-service" class="text-lg font-semibold text-gray-900">--</div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg">
+                                <div class="text-sm text-gray-600 mb-1">Tiempo estimado</div>
+                                <div id="timeframe" class="text-lg font-semibold text-gray-900">--</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Info Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4 scroll-animate">¿Cómo funciona?</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto scroll-animate" style="animation-delay: 0.1s;">
+                        Nuestra calculadora utiliza algoritmos avanzados para darte una estimación basada en factores clave de tu caso.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center scroll-animate hover-lift">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">1</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Ingresa tus Datos</h3>
+                        <p class="text-gray-600">
+                            Monto perdido, tiempo transcurrido, calidad de evidencia y jurisdicción.
+                        </p>
+                    </div>
+                    
+                    <div class="text-center scroll-animate hover-lift" style="animation-delay: 0.1s;">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">2</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Obtén una Estimación</h3>
+                        <p class="text-gray-600">
+                            Tasa de éxito, costo estimado, servicio recomendado y tiempo.
+                        </p>
+                    </div>
+                    
+                    <div class="text-center scroll-animate hover-lift" style="animation-delay: 0.2s;">
+                        <div class="w-16 h-16 bg-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">3</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Agenda una Consulta</h3>
+                        <p class="text-gray-600">
+                            Contacta a nuestros expertos para un análisis detallado de tu caso.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-emerald-500 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-6 scroll-animate">¿Listo para recuperar tu dinero?</h2>
+                <p class="text-xl text-emerald-100 mb-8 scroll-animate" style="animation-delay: 0.1s;">
+                    Agenda una consulta gratuita con nuestros abogados especialistas.
+                </p>
+                <a href="/contacto.html" class="inline-flex items-center rounded-2xl bg-white px-8 py-4 text-emerald-500 font-semibold shadow-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105">
+                    Agenda una Consulta
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer data-include="footer"></footer>
+
+    <!-- Scripts -->
+    <script src="/js/app.js"></script>
+    <script>
+        // Calculator logic
+        document.getElementById('calculator-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const amountLost = parseFloat(formData.get('amount-lost'));
+            const timeElapsed = parseInt(formData.get('time-elapsed'));
+            const evidenceQuality = formData.get('evidence-quality');
+            const jurisdiction = formData.get('jurisdiction');
+            
+            if (amountLost <= 0) {
+                alert('Por favor ingresa un monto válido');
+                return;
+            }
+            
+            // Calculate results
+            const results = calculateRecovery(amountLost, timeElapsed, evidenceQuality, jurisdiction);
+            
+            // Display results
+            displayResults(results);
+        });
+        
+        function calculateRecovery(amountLost, timeElapsed, evidenceQuality, jurisdiction) {
+            // Time factor (decreases over time)
+            const timeFactor = Math.max(0, 1 - (timeElapsed / 365));
+            
+            // Evidence factor
+            const evidenceFactors = {
+                'low': 0.4,
+                'medium': 0.7,
+                'high': 1.0
+            };
+            const evidenceFactor = evidenceFactors[evidenceQuality];
+            
+            // Jurisdiction factor
+            const jurisdictionFactor = jurisdiction === 'local' ? 1.0 : 0.8;
+            
+            // Calculate success rate
+            let successRate = 0.3 + 
+                (amountLost / 1000000) + // Increases with amount
+                (timeFactor * 0.3) +
+                (evidenceFactor * 0.2) +
+                (jurisdictionFactor * 0.1);
+            
+            successRate = Math.min(0.95, Math.max(0.1, successRate));
+            
+            // Calculate estimated cost
+            let estimatedCost = amountLost * 0.05; // 5% base
+            if (successRate < 0.5) estimatedCost += amountLost * 0.02;
+            if (jurisdiction === 'international') estimatedCost += amountLost * 0.03;
+            
+            // Recommended service
+            let recommendedService = 'Asesoría Básica';
+            if (amountLost > 50000 && successRate > 0.6) {
+                recommendedService = 'Recuperación de Fondos';
+            } else if (amountLost > 10000 && successRate > 0.5) {
+                recommendedService = 'Asesoría Avanzada y Auditoría';
+            }
+            
+            // Timeframe
+            let timeframe = '1-3 meses';
+            if (amountLost > 10000) timeframe = '3-6 meses';
+            if (amountLost > 50000) timeframe = '6-12 meses';
+            
+            return {
+                successRate,
+                estimatedCost,
+                recommendedService,
+                timeframe
+            };
+        }
+        
+        function displayResults(results) {
+            const resultsDiv = document.getElementById('results');
+            const successRateDiv = document.getElementById('success-rate');
+            const estimatedCostDiv = document.getElementById('estimated-cost');
+            const recommendedServiceDiv = document.getElementById('recommended-service');
+            const timeframeDiv = document.getElementById('timeframe');
+            
+            // Update content
+            successRateDiv.textContent = `${(results.successRate * 100).toFixed(0)}%`;
+            estimatedCostDiv.textContent = `$${results.estimatedCost.toLocaleString()} USD`;
+            recommendedServiceDiv.textContent = results.recommendedService;
+            timeframeDiv.textContent = results.timeframe;
+            
+            // Show results
+            resultsDiv.classList.remove('hidden');
+            resultsDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
+
