@@ -55,13 +55,43 @@ function doPost(e) {
       const source = payload.source || '';
       const submittedAt = payload.submittedAt || new Date().toISOString();
       const data = payload.data || payload.contact || {};
-      const items = JSON.stringify(payload.items || []);
-      const total = payload.totalUsd || '';
 
-      // Compose the row — adjust columns as you like
-      const row = [submittedAt, source, data.nombre || data.name || '', data.email || '', data.telefono || data.phone || '', data.pais || '', data.servicio || '', data.mensaje || data.message || '', items, total];
-      Logger.log('Appending row: %s', JSON.stringify(row));
-      sheet.appendRow(row);
+      // Detect currency
+      let currency = 'UNKNOWN';
+      if (payload.currency) currency = String(payload.currency).toUpperCase();
+      else if (typeof payload.totalUsd !== 'undefined') currency = 'USD';
+      else if (typeof payload.totalMxn !== 'undefined') currency = 'MXN';
+      else if (typeof payload.totalPen !== 'undefined' || typeof payload.totalPEN !== 'undefined') currency = 'PEN';
+
+      const itemsArr = Array.isArray(payload.items) ? payload.items : (payload.cart || []);
+
+      // Ensure header with per-item columns
+      const firstCell = sheet.getRange(1, 1).getValue();
+      if (!firstCell) {
+        const headers = ['submittedAt', 'source', 'service', 'lawyer', 'quantity', 'currency', 'contactName', 'contactEmail', 'contactPhone', 'country', 'message'];
+        sheet.appendRow(headers);
+        Logger.log('Headers inserted: %s', JSON.stringify(headers));
+      }
+
+      const contactName = data.nombre || data.name || '';
+      const contactEmail = data.email || '';
+      const contactPhone = data.telefono || data.phone || '';
+      const country = data.pais || data.country || '';
+      const message = data.mensaje || data.message || '';
+
+      // Append one row per item
+      itemsArr.forEach(item => {
+        const serviceRaw = item.serviceId || item.servicio || item.service || '';
+        const lawyerRaw = item.lawyerId || item.lawyer || item.abogado || '';
+        const quantity = item.quantity || item.cantidad || item.qty || 1;
+
+        const serviceLabel = String(serviceRaw).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+        const lawyerLabel = String(lawyerRaw).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+        const row = [submittedAt, source, serviceLabel, lawyerLabel, quantity, currency, contactName, contactEmail, contactPhone, country, message];
+        Logger.log('Appending item row: %s', JSON.stringify(row));
+        sheet.appendRow(row);
+      });
     } finally {
       lock.releaseLock();
     }
