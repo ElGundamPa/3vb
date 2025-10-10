@@ -1,6 +1,14 @@
 const SHEET_ID = '1mCWS1rp6D79F42cnP732XGu5h2kKcOZgzQvpvmITeWs';
-// Replace this SECRET with the value you set in your `.env.local` (APPS_SCRIPT_SECRET)
-const SECRET = 'AKfycbxHwDXsnz_PMHpcpjjWpOOk46GtV1eYx5fzIJOhMDVzzxjC-TiqjBsRJgTth0ReTnWeEA';
+// Read secret from Script Properties (recommended). Set APPS_SCRIPT_SECRET in the Apps Script editor
+// under Project Settings -> Script properties. This avoids hardcoding secrets in the repository.
+let SECRET = '';
+try {
+  // PropertiesService is available in the Apps Script runtime
+  SECRET = PropertiesService.getScriptProperties().getProperty('APPS_SCRIPT_SECRET') || '';
+} catch (e) {
+  // Editing locally or running tests: SECRET will be empty. Use a deploy-time property in Apps Script.
+  SECRET = '';
+}
 
 /**
  * Respond to GET so you can sanity-check the web app URL in a browser.

@@ -25,18 +25,18 @@ export async function POST(request: NextRequest) {
     const windowMs = 60 * 1000; // 1 minute
     const maxPerWindow = 30;
     // store on global (module) to persist across calls in a single process
-    // @ts-ignore
-    if (!global.__rateLimit) global.__rateLimit = {};
-    // @ts-ignore
-    const rl = global.__rateLimit[ip] || { count: 0, start: now };
+  // @ts-expect-error allow attaching ephemeral rate-limit state to global
+  if (!global.__rateLimit) global.__rateLimit = {};
+  // @ts-expect-error allow attaching ephemeral rate-limit state to global
+  const rl = global.__rateLimit[ip] || { count: 0, start: now };
     if (now - rl.start < windowMs) {
       rl.count += 1;
     } else {
       rl.count = 1;
       rl.start = now;
     }
-    // @ts-ignore
-    global.__rateLimit[ip] = rl;
+  // @ts-expect-error allow attaching ephemeral rate-limit state to global
+  global.__rateLimit[ip] = rl;
     if (rl.count > maxPerWindow) {
       return NextResponse.json({ error: 'Rate limit exceeded' }, { status: 429 });
     }
