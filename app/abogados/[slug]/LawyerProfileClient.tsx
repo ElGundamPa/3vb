@@ -168,7 +168,7 @@ export default function LawyerProfileClient({ lawyer }: { lawyer: LawyerData }) 
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.7 }}
                 >
-                  {lawyer.emails.map((email, i) => (
+                  {lawyer.emails.map((email) => (
                     <motion.a
                       key={email.address}
                       href={`mailto:${email.address}`}

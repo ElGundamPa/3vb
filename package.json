@@ -13,7 +13,7 @@
     "ci": "npm run lint && npm run test && npm run build"
   },
   "engines": {
-    "node": ">=18.18.0"
+    "node": "22.x"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { LazyWrapper } from "./LazyWrapper";
 import { Download, Globe, Award, Star, FileText } from "lucide-react";
 
