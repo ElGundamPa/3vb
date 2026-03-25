@@ -12,13 +12,13 @@ interface Abogado {
   title: string;
   specialty: string;
   experience: string;
-  image: string;
+  image?: string;
   bio: string;
   quote: string;
   quoteSource: string;
   achievements: string[];
   languages: string[];
-  pdfUrl: string;
+  pdfUrl?: string;
 }
 
 interface AbogadosTeamProps {

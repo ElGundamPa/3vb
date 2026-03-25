@@ -1,0 +1,1409 @@
+[
+  {
+    "id": "andrew-sutcliffe-kc",
+    "name": "Andrew Sutcliffe KC",
+    "badge": "KC",
+    "badgeColors": {
+      "from": "yellow-400",
+      "to": "yellow-600",
+      "textColor": "black"
+    },
+    "heroGradient": "from-slate-900 via-blue-900 to-slate-800",
+    "accentColor": "blue",
+    "title": "King's Counsel",
+    "specialty": "Fraude Civil y Recuperación de Activos",
+    "bio": "Litigante experimentado con amplia práctica comercial, reconocido como 'técnicamente brillante, incisivo y tácticamente astuto'. Especialista en banca, fraude civil, recuperación de activos y derecho del entretenimiento.",
+    "fullDescription": [
+      "Andrew Sutcliffe KC es un litigante experimentado con una amplia práctica comercial, elogiado por la calidad de su trabajo y la tenacidad que demuestra al manejarlo. Es considerado 'técnicamente excelente, pero su fortaleza particular radica en la sala del tribunal'.",
+      "Su estilo de interrogatorio es tanto incisivo como exhaustivo. Es elogiado por su 'excelente defensa, dedicación y apoyo — un verdadero jugador de equipo'. Es considerado 'despiadadamente efectivo en batalla' por quienes lo han visto en acción.",
+      "Tiene una extensa práctica bancaria, actuando tanto a favor como en contra de instituciones financieras. Es reconocido como 'uno de los mejores' en fraude comercial y ha actuado en muchas de las principales disputas de entretenimiento a lo largo de los años.",
+      "Andrew actúa regularmente en nombre de la Agencia Nacional contra el Crimen en asuntos de recuperación civil bajo la Ley de Productos del Delito de 2002, obteniendo órdenes de congelamiento de propiedades, órdenes de patrimonio inexplicable y órdenes de recuperación civil."
+    ],
+    "experience": "42+ años de experiencia",
+    "countries": [
+      "Reino Unido",
+      "Estados Unidos",
+      "Internacional"
+    ],
+    "languages": [
+      "Inglés",
+      "Francés"
+    ],
+    "rating": 4.9,
+    "emails": [
+      {
+        "address": "asutcliffe@3vb.com",
+        "primary": true
+      },
+      {
+        "address": "SilksPMs@3vb.com",
+        "primary": false
+      }
+    ],
+    "colegiacion": "1983",
+    "silkYear": "2001",
+    "quotes": [
+      {
+        "text": "Andrew es técnicamente brillante, incisivo y tácticamente astuto.",
+        "source": "Chambers & Partners UK Bar (2025)"
+      },
+      {
+        "text": "Andrew tiene una gravedad que significa que puede ser presentado ante un consejo de directores e inmediatamente imponer respeto. Su trabajo como juez adjunto del Tribunal Superior le da una perspectiva que otros carecen.",
+        "source": "Chambers & Partners UK Bar (2025)"
+      },
+      {
+        "text": "Destaca en tomar asuntos muy complicados y hacerlos simples, tanto para el juez como para el cliente. Andrew es además un absoluto placer trabajar con él.",
+        "source": "Legal 500 UK Bar (2025)"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Años de Experiencia",
+        "value": "42+",
+        "icon": "Calendar"
+      },
+      {
+        "label": "Casos Notables",
+        "value": "500+",
+        "icon": "Award"
+      },
+      {
+        "label": "Jurisdicciones",
+        "value": "10+",
+        "icon": "Globe"
+      },
+      {
+        "label": "Publicaciones",
+        "value": "10+",
+        "icon": "FileText"
+      }
+    ],
+    "practiceAreas": [
+      {
+        "title": "Banca y Finanzas",
+        "description": "Consistentemente nominado como silk líder en banca y finanzas. Experiencia en disputas bancarias domésticas e internacionales que involucran todos los aspectos de crédito y seguridad, garantías, letras de cambio, cartas de crédito, bonos y derivados.",
+        "cases": [
+          "Sisters of Charity of Jesus and Mary v Morgan Stanley: representó a más de 130 titulares de notas bajo un swap ISDA",
+          "Adcock & Sons Ltd v Barclays Bank Plc: actuó para Barclays en litigio de swaps de alto perfil",
+          "Lancore Services Ltd v Barclays Bank plc [2009] EWCA Civ 752: defensa exitosa en retención de pagos con tarjeta de crédito"
+        ],
+        "iconName": "Building",
+        "color": "from-blue-500 to-cyan-500"
+      },
+      {
+        "title": "Fraude Civil",
+        "description": "Reconocido como silk líder en fraude comercial. Extensa experiencia en trabajo de fraude y rastreo de activos doméstico e internacional, incluyendo obtención de injunciones de congelamiento urgentes y órdenes de búsqueda.",
+        "cases": [
+          "NCA v Su Binghai [2025]: obtuvo órdenes de patrimonio inexplicable vinculadas al mayor caso de lavado de dinero de Singapur",
+          "SFO v Schools [2025]: obtuvo orden de patrimonio inexplicable contra ex esposa de estafador convicto",
+          "NCA v Feyziyev [2023] EWHC 1562: orden de congelamiento sobre 22 propiedades en Londres"
+        ],
+        "iconName": "FileText",
+        "color": "from-red-500 to-pink-500"
+      },
+      {
+        "title": "Recuperación Civil y Rastreo de Activos",
+        "description": "Extensa experiencia en trabajo de fraude y rastreo de activos con elemento internacional. Regularmente instruido por la Agencia Nacional contra el Crimen y la Oficina de Fraudes Graves.",
+        "cases": [
+          "NCA v Persons Unknown [2022]: obtuvo sentencia sumaria por £54 millones en el Tribunal Comercial",
+          "SFO v Karimova [2025]: orden de congelamiento y nombramiento de receptor en reclamación contra hija del ex presidente de Uzbekistán",
+          "NCA v Amir Azam & others [2014] EWHC 2722: reclamación sustancial bajo legislación de productos del delito"
+        ],
+        "iconName": "Globe",
+        "color": "from-amber-500 to-orange-500"
+      },
+      {
+        "title": "Medios y Entretenimiento",
+        "description": "Reconocido durante mucho tiempo como silk líder en derecho del entretenimiento. Ha aparecido en muchos de los casos principales en este campo, asesorando a editoriales, sellos discográficos y agencias de gestión.",
+        "cases": [
+          "Allen v Bloomsbury Publishing Plc [2010]: defensa contra demanda de infracción de derechos de autor relacionada con Harry Potter",
+          "Fisher v Brooker [2007]: caso sobre autoría de 'A Whiter Shade of Pale'",
+          "Spice Girls Ltd v Aprilia World Service BV [2002]: caso líder sobre representación errónea por conducta"
+        ],
+        "iconName": "Star",
+        "color": "from-purple-500 to-indigo-500"
+      },
+      {
+        "title": "Negligencia Profesional",
+        "description": "Extensa experiencia actuando en disputas sobre responsabilidad de profesionales, particularmente abogados, contadores y actuarios.",
+        "cases": [
+          "Derby Playhouse Ltd v Geldards LLP: defensa exitosa de demanda de negligencia profesional de £11m",
+          "RPL v McCarthy Tetrault: reclamación multimillonaria contra abogados negligentes en due diligence",
+          "Feakins v Burstows [2006]: reclamación exitosa contra ex abogados por mal manejo de litigio"
+        ],
+        "iconName": "Briefcase",
+        "color": "from-emerald-500 to-teal-500"
+      },
+      {
+        "title": "Arbitraje",
+        "description": "Miembro de la LCIA con amplia experiencia en arbitrajes internacionales en disputas bancarias transfronterizas, derechos de autor, telecomunicaciones y más.",
+        "cases": [
+          "Disputa bancaria transfronteriza (EE.UU./Inglaterra)",
+          "Disputa sobre derechos de opción de compra en relación con derechos de personaje literario conocido",
+          "Disputa sobre provisión e instalación de sistema informático para multinacional"
+        ],
+        "iconName": "Gavel",
+        "color": "from-green-500 to-emerald-500"
+      }
+    ],
+    "achievements": [
+      "Recorder desde 1999",
+      "Juez Adjunto del Tribunal Superior desde 2004",
+      "Mediador acreditado CEDR desde 2000"
+    ],
+    "news": [
+      {
+        "title": "Andrew Sutcliffe KC y Tom Rainsbury resisten exitosamente solicitud de descargo de Orden de Congelamiento de £50m de la NCA",
+        "date": "2024",
+        "category": "Éxito Legal"
+      },
+      {
+        "title": "Los premios Legal 500 Bar Awards 2024: 3VB nominado para 24 premios",
+        "date": "2024",
+        "category": "Reconocimiento"
+      },
+      {
+        "title": "Rankings de 3VB en Chambers & Partners Global Guide 2024",
+        "date": "2024",
+        "category": "Rankings"
+      }
+    ],
+    "events": [
+      {
+        "title": "Episodio 8 – La decisión del Tribunal Supremo en Brake v Chedington",
+        "date": "2024",
+        "time": "Podcast",
+        "type": "Podcast"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Nombramientos",
+        "degree": "Judicial y Profesional",
+        "awards": [
+          "Recorder (1999)",
+          "Juez Adjunto del Tribunal Superior (2004)",
+          "Abogado del Tribunal Supremo del Caribe Oriental (Islas Vírgenes Británicas) (2007)"
+        ]
+      },
+      {
+        "institution": "Membresías",
+        "degree": "Profesional",
+        "awards": [
+          "COMBAR",
+          "Chancery Bar Association",
+          "LCLCBA",
+          "Professional Negligence Bar Association",
+          "POCLA"
+        ]
+      },
+      {
+        "institution": "Publicaciones",
+        "degree": "Editor y Colaborador",
+        "awards": [
+          "Editor, sección de Entretenimiento de Bullen & Leake & Jacob's Precedents of Pleadings"
+        ]
+      }
+    ],
+    "pdfUrl": "/assets/Pdf/andrew-sutcliffe-kc.pdf",
+    "cardQuote": "Andrew es técnicamente brillante, incisivo y tácticamente astuto. Su presentación de argumentos legales es convincente. Además es un placer trabajar con él.",
+    "cardQuoteSource": "Chambers & Partners UK Bar (2025)"
+  },
+  {
+    "id": "tom-de-vecchi",
+    "name": "Tom De Vecchi",
+    "badge": "JC",
+    "badgeColors": {
+      "from": "green-400",
+      "to": "emerald-600",
+      "textColor": "white"
+    },
+    "heroGradient": "from-slate-900 via-emerald-900 to-slate-800",
+    "accentColor": "green",
+    "title": "Junior Counsel",
+    "specialty": "Fraude Civil y Banca",
+    "bio": "Abogado comercial experimentado regularmente instruido en asuntos complejos y de alto valor, particularmente en relación con fraude civil, litigios comerciales generales, banca y disputas de servicios financieros.",
+    "fullDescription": [
+      "Tom es un abogado comercial experimentado que es regularmente instruido en asuntos complejos y de alto valor, particularmente en relación con fraude civil, litigios comerciales generales, banca y disputas de servicios financieros.",
+      "Ha aparecido en algunos de los casos más destacados y complejos ante los tribunales ingleses, incluyendo Skatteforvaltningen v Solo Capital Partners & ors [2025], donde formó parte del equipo de defensa que derrotó exitosamente una demanda de fraude de £1.4 mil millones presentada por la autoridad fiscal y aduanera danesa.",
+      "Antes de ejercer como abogado, Tom trabajó en una serie de cuestiones de política pública y legal en el Banco de Inglaterra (2002-5), la Autoridad de Servicios Financieros (2005-6) y la Comisión de Derecho (2008-9). Esta experiencia es invaluable en la práctica del derecho.",
+      "Es regularmente instruido para trabajo de servicios financieros, en capacidad representativa y de asesoramiento, y también en relación con la redacción de reglas y directrices regulatorias."
+    ],
+    "experience": "16+ años de experiencia",
+    "countries": [
+      "Reino Unido",
+      "Islas Caimán",
+      "Catar"
+    ],
+    "languages": [
+      "Inglés"
+    ],
+    "rating": 4.8,
+    "emails": [
+      {
+        "address": "tdevecchi@3vb.com",
+        "primary": true
+      },
+      {
+        "address": "SeniorJuniorsPMs@3vb.com",
+        "primary": false
+      }
+    ],
+    "colegiacion": "2009",
+    "silkYear": null,
+    "quotes": [
+      {
+        "text": "3 Verulam Buildings es de primera clase.",
+        "source": "Chambers & Partners UK Bar (2022)"
+      },
+      {
+        "text": "El set cuenta con algunos de los profesionales más fuertes del mercado.",
+        "source": "Chambers & Partners UK Bar (2022)"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Años de Experiencia",
+        "value": "16+",
+        "icon": "Calendar"
+      },
+      {
+        "label": "Casos Notables",
+        "value": "200+",
+        "icon": "Award"
+      },
+      {
+        "label": "Jurisdicciones",
+        "value": "5+",
+        "icon": "Globe"
+      },
+      {
+        "label": "Publicaciones",
+        "value": "5+",
+        "icon": "BookOpen"
+      }
+    ],
+    "practiceAreas": [
+      {
+        "title": "Fraude Civil",
+        "description": "Extensa experiencia en trabajo de fraude civil. Fue instruido desde el inicio en el caso SKAT (€1.5 mil millones) y formó parte del equipo de abogados en múltiples etapas interlocutorias.",
+        "cases": [
+          "Skatteforvaltningen v Solo Capital Partners & ors [2025] EWHC 2364 (Comm): derrotó demanda de fraude de £1.4 mil millones",
+          "Pliego & anor v Astor Asset Management 3 Ltd [2024] EWHC 2522 (Comm): defensa de demanda de fraude civil de US$280 millones",
+          "Invest Bank PSC v El-Husseini and ors [2022] EWHC 894 (Comm): defensa de activos contra banco de EAU"
+        ],
+        "iconName": "FileText",
+        "color": "from-red-500 to-pink-500"
+      },
+      {
+        "title": "Resolución de Disputas Comerciales",
+        "description": "Aparece regularmente en el County Court y High Court en asuntos comerciales generales, con enfoque en banca, insolvencia, servicios financieros y jurisdicciones offshore.",
+        "cases": [
+          "Punjab National Bank (International) v Vishal Cruises [2020] EWHC 1962 (Comm): demandas de deuda de £10+ millones como abogado único",
+          "HSH Nordbank AG v Intesa Sanpaolo SpA [2014] EWHC 142 (Comm): defensa exitosa en reclamación restitutoria sobre swap",
+          "UBS Ltd and UBS AG v Regione Calabria [2012] EWHC 699 (Comm): disputas sobre derivados complejos"
+        ],
+        "iconName": "Briefcase",
+        "color": "from-emerald-500 to-teal-500"
+      },
+      {
+        "title": "Banca",
+        "description": "Experiencia previa en el Banco de Inglaterra y la FSA resulta invaluable. Regularmente instruido para trabajo bancario, tanto individualmente como junior.",
+        "cases": [
+          "Credit Agricole Corporate and Investment Bank v Persons [2025] EWHC 1346 (Ch): aprobación de venta de cajas de seguridad centenarias",
+          "Re Credit Agricole Corporate and Investment Bank [2021] EWHC 1679 (Ch): autoridad líder en uso de Part 8 sin demandados",
+          "Punjab National Bank (International) Ltd v Vishal Cruises [2020] EWHC 1962 (Comm): defensa exitosa de desafío jurisdiccional"
+        ],
+        "iconName": "Building",
+        "color": "from-blue-500 to-cyan-500"
+      },
+      {
+        "title": "Servicios Financieros",
+        "description": "Experiencia previa en el Banco de Inglaterra, FSA y Comisión de Derecho. Regularmente instruido en servicios financieros en capacidad representativa y de asesoramiento.",
+        "cases": [
+          "Redacción de reglas e infraestructura de mercado para el Centro Financiero Internacional de Astaná",
+          "Redacción de reglas de insolvencia y empresas para el Centro Financiero de Catar",
+          "Asesoramiento a startup FinTech sobre aplicación de Regulaciones de Servicios de Pago"
+        ],
+        "iconName": "Globe",
+        "color": "from-amber-500 to-orange-500"
+      }
+    ],
+    "achievements": [
+      "Defensa exitosa en caso SKAT de £1.4bn",
+      "Experiencia en Banco de Inglaterra y FSA",
+      "BA PPE First Class, Magdalen College Oxford"
+    ],
+    "news": [
+      {
+        "title": "3VB defiende exitosamente juicio de fraude de £1.4bn presentado por SKAT (la autoridad fiscal danesa)",
+        "date": "2025",
+        "category": "Éxito Legal"
+      },
+      {
+        "title": "16ª Edición de Paget's Law of Banking publicada",
+        "date": "2024",
+        "category": "Publicación"
+      },
+      {
+        "title": "Tom De Vecchi y Sophia Dzwig actúan exitosamente para grupo demandado en el primer juicio de cuestión preliminar en el litigio SKAT",
+        "date": "2021",
+        "category": "Éxito Legal"
+      }
+    ],
+    "events": [],
+    "education": [
+      {
+        "institution": "Magdalen College, Oxford",
+        "degree": "BA Filosofía, Política y Economía — First (2001)",
+        "awards": [
+          "Primera clase"
+        ]
+      },
+      {
+        "institution": "BPP Law School",
+        "degree": "CPE/GDL — Distinción (3º en el año) (2007); BVC — Outstanding (2008)",
+        "awards": [
+          "Distinción en CPE/GDL",
+          "Outstanding en BVC"
+        ]
+      },
+      {
+        "institution": "Membresías",
+        "degree": "Profesional",
+        "awards": [
+          "COMBAR",
+          "LCLCBA",
+          "Inner Temple",
+          "Chancery Bar Association"
+        ]
+      }
+    ],
+    "pdfUrl": "/assets/Pdf/tom-de-vecchi.pdf",
+    "cardQuote": "Tom formó parte del equipo de defensa que derrotó exitosamente una demanda de fraude de £1.4 mil millones presentada por la autoridad fiscal danesa.",
+    "cardQuoteSource": "3VB (2025)"
+  },
+  {
+    "id": "charlotte-eborall",
+    "name": "Charlotte Eborall",
+    "badge": "SJ",
+    "badgeColors": {
+      "from": "green-400",
+      "to": "emerald-600",
+      "textColor": "white"
+    },
+    "heroGradient": "from-slate-900 via-purple-900 to-slate-800",
+    "accentColor": "purple",
+    "title": "Senior Junior",
+    "specialty": "Banca, Servicios Financieros y Criptoactivos",
+    "bio": "Senior junior experimentada y reconocida, especializada en litigios comerciales complejos y de alto valor en banca y finanzas, servicios financieros y regulación, fraude civil, criptoactivos y litigios grupales.",
+    "fullDescription": [
+      "Charlotte es una senior junior experimentada y reconocida, especializada en litigios comerciales complejos y de alto valor en los campos de litigios comerciales generales, banca y finanzas, servicios financieros y regulación, fraude civil, criptomonedas/activos digitales y litigios grupales.",
+      "Descrita en los directorios como 'una senior junior de primera clase' y 'una verdadera estrella' que es 'siempre excelente' y 'excepcionalmente trabajadora, meticulosa, exhaustiva e implacable en su enfoque'. Charlotte es conocida por ser 'muy accesible y una excelente jugadora de equipo'.",
+      "Charlotte ha sido consistentemente reconocida en los directorios legales por más de quince años y está clasificada como senior junior líder en cinco áreas de práctica: Resolución de Disputas Comerciales, Banca y Finanzas, Servicios Financieros, Financiación al Consumo y Cripto/blockchain.",
+      "En noviembre de 2021, Charlotte fue nombrada Junior Bancaria del Año en los Chambers & Partners UK Bar Awards, y desde entonces ha sido nominada dos veces para Junior de Servicios Financieros y Seguros del Año."
+    ],
+    "experience": "21+ años de experiencia",
+    "countries": [
+      "Reino Unido",
+      "Jersey",
+      "Catar",
+      "Abu Dabi"
+    ],
+    "languages": [
+      "Inglés"
+    ],
+    "rating": 4.9,
+    "emails": [
+      {
+        "address": "ceborall@3vb.com",
+        "primary": true
+      },
+      {
+        "address": "SeniorJuniorsPMs@3vb.com",
+        "primary": false
+      }
+    ],
+    "colegiacion": "2004",
+    "silkYear": null,
+    "quotes": [
+      {
+        "text": "Es excelente. Charlotte tiene un estilo muy mesurado y persuasivo en el tribunal.",
+        "source": "Chambers & Partners UK Bar (2024)"
+      },
+      {
+        "text": "Charlotte es meticulosa y está completamente al tanto de cada detalle, mientras también mantiene la vista en los resultados estratégicos generales deseados.",
+        "source": "Chambers & Partners UK Bar (2024)"
+      },
+      {
+        "text": "Es una abogada soberbia con una gran mezcla de habilidades analíticas y al mismo tiempo amigable con el cliente. Su redacción es exhaustiva, precisa y persuasiva.",
+        "source": "Legal 500 UK Bar (2024)"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Años de Experiencia",
+        "value": "21+",
+        "icon": "Calendar"
+      },
+      {
+        "label": "Áreas Clasificadas",
+        "value": "5",
+        "icon": "Award"
+      },
+      {
+        "label": "Jurisdicciones",
+        "value": "6+",
+        "icon": "Globe"
+      },
+      {
+        "label": "Publicaciones",
+        "value": "30+",
+        "icon": "BookOpen"
+      }
+    ],
+    "practiceAreas": [
+      {
+        "title": "Banca y Finanzas",
+        "description": "Especialista en litigios bancarios y financieros, regularmente instruida por bancos principales e instituciones financieras. Práctica que abarca derivados, productos de préstamo novedosos, hipotecas, garantías y reclamaciones equitativas.",
+        "cases": [
+          "NMC Healthcare v Dubai Islamic Bank: disputa de financiación islámica de US$400m sobre colapso de empresa sanitaria",
+          "PCP Capital Partners LLP v Barclays Bank plc [2021]: reclamación de £1.6 mil millones por representación fraudulenta",
+          "Wards v Clydesdale Bank plc: reclamación de más de £23 millones por mis-selling de swaps y TBL"
+        ],
+        "iconName": "Building",
+        "color": "from-blue-500 to-cyan-500"
+      },
+      {
+        "title": "Fraude Civil",
+        "description": "Instruida en muchas de las disputas de fraude líderes, que a menudo abarcan sus otras áreas de práctica.",
+        "cases": [
+          "NMC Healthcare v Noor Bank [2023]: defensa de reclamación de trading fraudulento",
+          "Tersly Investments Limited v Highlander Worldwide (2023): representación fraudulenta y conspiración",
+          "Mortgage Express v Hall & Co: demanda de fraude de £20m contra abogados y tasadores"
+        ],
+        "iconName": "FileText",
+        "color": "from-red-500 to-pink-500"
+      },
+      {
+        "title": "Servicios Financieros y Regulación",
+        "description": "Dos secondments en la FSA. Especializada en transferencias Part VII FSMA, permisos regulatorios, servicios de pago y activos digitales.",
+        "cases": [
+          "Payment Systems Regulator (2024-2025): cuestiones de perímetro sobre reembolso de fraude APP",
+          "Investigación TSB Bank plc: actuó para FCA y PRA en sanción por fallos de sistemas TI",
+          "Re Society of Lloyd's [2020] EWHC 3266 (Ch): transferencia de seguros relacionada con Brexit"
+        ],
+        "iconName": "Globe",
+        "color": "from-amber-500 to-orange-500"
+      },
+      {
+        "title": "Criptomonedas y Activos Digitales",
+        "description": "Especial interés en la intersección entre el derecho común y la regulación de criptomonedas. Ha liderado respuestas de COMBAR a la Comisión de Derecho y el Tesoro.",
+        "cases": [
+          "Binance v D'Aloia [2024] EWHC 895 (Ch): reclamación de rastreo de criptomonedas contra exchanges",
+          "Asesoramiento sobre perímetro regulatorio para servicio de cambio de divisas y billetera digital",
+          "Asesoramiento sobre reclamaciones potenciales contra fundador de criptomoneda nueva"
+        ],
+        "iconName": "Star",
+        "color": "from-purple-500 to-indigo-500"
+      },
+      {
+        "title": "Litigios Grupales",
+        "description": "Experiencia sustancial en litigios grupales y de múltiples partes, incluyendo reclamaciones de emisiones diésel y COVID-19.",
+        "cases": [
+          "Hamon v UCL (2025): demanda grupal de ~4,000 estudiantes por enseñanza durante COVID-19",
+          "Pan NOx Emissions (Dieselgate): litigios grupales con más de 1 millón de demandantes",
+          "Reclamaciones de comisiones energéticas tras Hopcraft (SC) y Expert Tooling (CoA)"
+        ],
+        "iconName": "Users",
+        "color": "from-green-500 to-emerald-500"
+      },
+      {
+        "title": "Resolución de Disputas Comerciales",
+        "description": "Regularmente instruida como abogada única y como junior para comparecer en el High Court y County Court en asuntos comerciales generales.",
+        "cases": [
+          "Lombard North Central plc v European SkyJets [2022] EWHC 728 (QB): disputa contractual de £26 millones",
+          "Lay v Independent Vetcare [2025] EWHC 1098 (Comm): defensa exitosa sobre perímetro de servicios de pago",
+          "Abdurrahman Suzgun v TF Global Markets (2024): disputa de brokerage FX"
+        ],
+        "iconName": "Briefcase",
+        "color": "from-emerald-500 to-teal-500"
+      }
+    ],
+    "achievements": [
+      "Junior Bancaria del Año 2021 (Chambers)",
+      "Nominada 4 veces a Junior del Año",
+      "Clasificada en 5 áreas de práctica"
+    ],
+    "news": [
+      {
+        "title": "Miembros de 3VB destacados en los 20 mejores casos de 2026 de The Lawyer",
+        "date": "2026",
+        "category": "Reconocimiento"
+      },
+      {
+        "title": "3VB nominado para cinco Chambers UK Bar Awards 2025",
+        "date": "2025",
+        "category": "Reconocimiento"
+      },
+      {
+        "title": "Charlotte Eborall defiende exitosamente demanda de negligencia profesional sobre alegaciones de Crédito al Consumo",
+        "date": "2025",
+        "category": "Éxito Legal"
+      }
+    ],
+    "events": [
+      {
+        "title": "Foro de Litigios Bancarios de 3VB 2025: Disputas Cripto, Roles de Intermediarios y Riesgos de Sanciones",
+        "date": "27 de noviembre de 2025",
+        "time": "4:00 pm - 6:30 pm",
+        "type": "Foro"
+      },
+      {
+        "title": "Seminario de Manchester 2025",
+        "date": "15 de octubre de 2025",
+        "time": "6:00 pm - 7:00 pm",
+        "type": "Seminario"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Premios y Nominaciones",
+        "degree": "Reconocimientos profesionales",
+        "awards": [
+          "Junior Bancaria del Año (Chambers, 2021, ganadora)",
+          "Junior de Banca y Finanzas del Año (Chambers, 2024 y 2025, nominada)",
+          "Junior de Servicios Financieros y Seguros del Año (Legal 500, 2022 y 2024, nominada)",
+          "Becaria Pegasus (2008)"
+        ]
+      },
+      {
+        "institution": "Downing College, Cambridge",
+        "degree": "Derecho",
+        "awards": [
+          "Seton Scholarship (2003)",
+          "Ganadora del De Smith Mooting Competition (2003)"
+        ]
+      },
+      {
+        "institution": "Membresías",
+        "degree": "Profesional",
+        "awards": [
+          "Middle Temple",
+          "COMBAR",
+          "FSLA",
+          "Advocate (Bar Pro Bono Unit)"
+        ]
+      }
+    ],
+    "pdfUrl": "/assets/Pdf/charlotte-eborall.pdf",
+    "cardQuote": "Es excelente. Charlotte tiene un estilo muy mesurado y persuasivo en el tribunal. Es meticulosa y completamente al tanto de cada detalle.",
+    "cardQuoteSource": "Chambers & Partners UK Bar (2024)"
+  },
+  {
+    "id": "david-head-kc",
+    "name": "David Head KC",
+    "badge": "KC",
+    "badgeColors": {
+      "from": "yellow-400",
+      "to": "yellow-600",
+      "textColor": "black"
+    },
+    "heroGradient": "from-slate-900 via-indigo-900 to-slate-800",
+    "accentColor": "blue",
+    "title": "King's Counsel",
+    "specialty": "Fraude Civil y Disputas Comerciales",
+    "bio": "Co-Head of Chambers en 3VB. Abogado y litigante de juicios altamente reconocido con amplia experiencia, práctica comercial variada incluyendo litigios y arbitraje internacionales complejos y trabajo de asesoría especializado.",
+    "fullDescription": [
+      "David Head KC es Co-Head of Chambers en 3VB. Un abogado y litigante de juicios altamente reconocido con amplia experiencia, tiene una práctica comercial variada incluyendo litigios y arbitraje internacionales complejos así como trabajo de asesoría especializado.",
+      "David ha sido recomendado durante muchos años por los directorios legales británicos e internacionales como silk líder en resolución de disputas comerciales, fraude civil y comercial, banca y finanzas y negligencia profesional.",
+      "Más recientemente, David lideró uno de dos grupos de demandados representados en SKAT v Solo Capital & Others, un juicio que duró más de un año — estableciendo récords para el Tribunal Comercial inglés — en el que la autoridad fiscal danesa presentó demandas de fraude por c.£1.5 mil millones.",
+      "David tiene amplia experiencia en solicitudes interlocutorias, incluyendo injunciones de congelamiento urgentes, órdenes de divulgación, órdenes de búsqueda y otros recursos cautelares, juicios largos y audiencias de arbitraje, apelaciones en tribunales superiores y procedimientos sustanciales de desacato."
+    ],
+    "experience": "28+ años de experiencia",
+    "countries": [
+      "Reino Unido",
+      "Dubái (DIFC)",
+      "Isla de Man",
+      "Islas Vírgenes Británicas"
+    ],
+    "languages": [
+      "Inglés"
+    ],
+    "rating": 4.9,
+    "emails": [
+      {
+        "address": "dhead@3vb.com",
+        "primary": true
+      },
+      {
+        "address": "SilksPMs@3vb.com",
+        "primary": false
+      }
+    ],
+    "colegiacion": "1997",
+    "silkYear": "2016",
+    "quotes": [
+      {
+        "text": "David realmente captura la atención del juez y piensa con brillantez sobre la marcha.",
+        "source": "Chambers & Partners UK Bar (2026)"
+      },
+      {
+        "text": "David es realmente accesible y comercial. Es persuasivo y tiene una manera particularmente fácil en el tribunal.",
+        "source": "Legal 500 UK Bar (2026)"
+      },
+      {
+        "text": "David es un abogado excepcional. Es práctico, su estilo es atractivo y lucha increíblemente duro por sus clientes en el tribunal.",
+        "source": "Chambers & Partners UK Bar (2026)"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Años de Experiencia",
+        "value": "28+",
+        "icon": "Calendar"
+      },
+      {
+        "label": "Casos Notables",
+        "value": "400+",
+        "icon": "Award"
+      },
+      {
+        "label": "Jurisdicciones",
+        "value": "8+",
+        "icon": "Globe"
+      },
+      {
+        "label": "Valor de Casos",
+        "value": "$5B+",
+        "icon": "Building"
+      }
+    ],
+    "practiceAreas": [
+      {
+        "title": "Fraude Civil y Comercial",
+        "description": "Instruido en algunos de los procedimientos de fraude más prominentes de los últimos años, en Londres y otros lugares. Amplia experiencia en injunciones de congelamiento urgentes y otros remedios cautelares.",
+        "cases": [
+          "SKAT v Solo Capital Partners & Ors: demanda de fraude de £1.5bn, juicio récord de más de un año",
+          "Global Steel Holdings Ltd v Pramod Mittal (2024): demanda de fraude de $300m contra magnate del acero",
+          "Kazakhstan Kagazy v Zhunus: demanda de US$150m por contratos ficticios y malversación"
+        ],
+        "iconName": "FileText",
+        "color": "from-red-500 to-pink-500"
+      },
+      {
+        "title": "Resolución de Disputas Comerciales",
+        "description": "Considerable experiencia en disputas comerciales complejas, incluyendo litigios y arbitraje de alto valor con múltiples partes.",
+        "cases": [
+          "Lakatamia Shipping v Nobu Su: conspiración por medios ilícitos en relación con disipación de US$27m",
+          "The World LLC v Dalal [2019] EWHC 2993 (Comm): reconocimiento de sentencia de Dubái por £35m",
+          "Al-Mojil v Protiviti: reclamación sustancial de negligencia profesional en los tribunales DIFC"
+        ],
+        "iconName": "Briefcase",
+        "color": "from-emerald-500 to-teal-500"
+      },
+      {
+        "title": "Banca y Finanzas",
+        "description": "Amplia experiencia en disputas financieras incluyendo swaps y derivados, finanzas estructuradas, préstamos comerciales y minoristas, crédito al consumo y servicios financieros.",
+        "cases": [
+          "Alfred Street v National Asset Management Agency: disputa sobre extensión de swaps de tasas de interés bajo ISDA",
+          "Hayfin v Windermere VII: derechos de titulares de notas Clase X en titulización de €782m",
+          "Merchant International v Naftogaz: disputa de US$25m sobre bonos y pagos de cupón"
+        ],
+        "iconName": "Building",
+        "color": "from-blue-500 to-cyan-500"
+      },
+      {
+        "title": "Negligencia Profesional",
+        "description": "Frecuentemente instruido en amplia gama de trabajo de negligencia profesional, contra abogados, corredores, contadores, auditores y tasadores.",
+        "cases": [
+          "Deutsche Pfandbriefbank AG v BNP Paribas Real Estate: demanda de >£50m contra tasadores inmobiliarios",
+          "Orchard v Natwest Bank: demanda de £48m por mis-selling de SWAPS y negligencia",
+          "Attorney-General of Zambia v Meer Care & Desai [2007] EWHC 952: $55m por malversación gubernamental"
+        ],
+        "iconName": "Award",
+        "color": "from-amber-500 to-orange-500"
+      },
+      {
+        "title": "Seguros y Reaseguros",
+        "description": "Actúa para y contra aseguradoras, reaseguradoras, corredores y otros intermediarios en todos los aspectos de disputas de seguros y reaseguros.",
+        "cases": [
+          "Taylor Aston v Aon Ltd [2005] EWHC 1684: demanda de US$2m sobre acuerdo de compartición de corretaje",
+          "Cable & Wireless v Valentine: fraude y violación de deber fiduciario en arreglos de reaseguro",
+          "DAR v Aon Limited [2004] 1 WLR 1395: disputa sobre colocación de seguro de aviación"
+        ],
+        "iconName": "Globe",
+        "color": "from-purple-500 to-indigo-500"
+      },
+      {
+        "title": "Medios y Entretenimiento",
+        "description": "Actúa para y contra productores de contenido mediático, músicos, presentadores de televisión, deportistas profesionales y agentes.",
+        "cases": [
+          "Gumball 3000 Films v Revolver Films [2010]: fallo en distribución y marketing de película",
+          "Arief International v Celador International [2004]: terminación de licencia de 'Who Wants to Be a Millionaire?'",
+          "Sony v McAlpine: violación de acuerdo de distribución cinematográfica"
+        ],
+        "iconName": "Star",
+        "color": "from-green-500 to-emerald-500"
+      }
+    ],
+    "achievements": [
+      "Co-Head of Chambers en 3VB",
+      "Récord de juicio más largo en Tribunal Comercial inglés",
+      "Oxford University Mooting Prize"
+    ],
+    "news": [
+      {
+        "title": "David Head KC y Calum Mulderrig exitosos en el Tribunal Comercial",
+        "date": "2025",
+        "category": "Éxito Legal"
+      },
+      {
+        "title": "3VB defiende exitosamente juicio de fraude de £1.4bn presentado por SKAT",
+        "date": "2025",
+        "category": "Éxito Legal"
+      },
+      {
+        "title": "David Head KC nombrado Co-Head of Chambers de 3VB",
+        "date": "2024",
+        "category": "Nombramiento"
+      }
+    ],
+    "events": [
+      {
+        "title": "Seminario de Manchester 2025",
+        "date": "15 de octubre de 2025",
+        "time": "6:00 pm - 7:00 pm",
+        "type": "Seminario"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Premios",
+        "degree": "Académicos y Profesionales",
+        "awards": [
+          "Oxford University Mooting Prize, Varsity Moot Leader",
+          "Queen Mother's Scholar",
+          "Harmsworth Entrance Exhibitioner"
+        ]
+      },
+      {
+        "institution": "Membresías",
+        "degree": "Profesional",
+        "awards": [
+          "Middle Temple",
+          "Commercial Bar Association",
+          "LCLCBA",
+          "Commercial Fraud Lawyers Association",
+          "Tribunal Supremo del Caribe Oriental (Islas Vírgenes)"
+        ]
+      }
+    ],
+    "pdfUrl": "/assets/Pdf/david-head-kc.pdf",
+    "cardQuote": "David realmente captura la atención del juez y piensa con brillantez sobre la marcha. Es un abogado excepcional con un estilo atractivo que lucha increíblemente duro por sus clientes.",
+    "cardQuoteSource": "Chambers & Partners UK Bar (2026)"
+  },
+  {
+    "id": "david-quest-kc",
+    "name": "David Quest KC",
+    "badge": "KC",
+    "badgeColors": {
+      "from": "yellow-400",
+      "to": "yellow-600",
+      "textColor": "black"
+    },
+    "heroGradient": "from-slate-900 via-blue-900 to-slate-800",
+    "accentColor": "blue",
+    "title": "King's Counsel",
+    "specialty": "Banca, Criptoactivos y Tecnología",
+    "bio": "Co-Head of Chambers en 3VB. Silk comercial líder con vasta experiencia en litigios y arbitraje complejos. Autoridad reconocida en criptoactivos, blockchain e inteligencia artificial, con formación en matemáticas y computación.",
+    "fullDescription": [
+      "David es Co-Head of Chambers en 3VB. Es un silk comercial líder, con vasta experiencia en litigios y arbitraje complejos, sensibles y de alto valor. Practica en toda la gama de disputas comerciales, con enfoque en banca y finanzas; fraude comercial y financiero; tecnología incluyendo fintech, blockchain, criptoactivos e inteligencia artificial.",
+      "Su preeminencia en litigios bancarios fue reconocida con el premio de Silk Bancario del Año en los Chambers Bar Awards 2021. Es autor principal de la declaración legal histórica del UKJT sobre Criptoactivos y Contratos Inteligentes.",
+      "David tiene una sólida formación en matemáticas y computación. Se graduó en matemáticas del Trinity College, Cambridge. Trabajó en el centro de I+D de ICL Mainframe Systems desarrollando software. Es fluido en Python.",
+      "Fue nombrado Juez Adjunto del Tribunal Superior en 2023. Está clasificado como silk líder en resolución de disputas comerciales, banca y finanzas, fraude civil, seguros, criptomonedas/blockchain, disputas offshore y trabajo en Oriente Medio."
+    ],
+    "experience": "32+ años de experiencia",
+    "countries": [
+      "Reino Unido",
+      "Islas Caimán",
+      "Islas Vírgenes Británicas",
+      "Bahamas",
+      "Emiratos Árabes Unidos"
+    ],
+    "languages": [
+      "Inglés"
+    ],
+    "rating": 4.9,
+    "emails": [
+      {
+        "address": "dquest@3vb.com",
+        "primary": true
+      },
+      {
+        "address": "SilksPMs@3vb.com",
+        "primary": false
+      }
+    ],
+    "colegiacion": "1993",
+    "silkYear": "2013",
+    "quotes": [
+      {
+        "text": "David Quest es fenomenalmente brillante, práctico y con los pies en la tierra. Tiene el balance correcto de pragmatismo y conocimiento académico.",
+        "source": "Chambers & Partners UK Bar (2026)"
+      },
+      {
+        "text": "David es un silk fantástico y completo, que combina un enfoque forense con un manejo hábil del cliente.",
+        "source": "Chambers & Partners UK Bar (2026)"
+      },
+      {
+        "text": "Su presencia en el tribunal es formidable. Es un acto de clase y un genio.",
+        "source": "Legal 500 UK Bar (2026)"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Años de Experiencia",
+        "value": "32+",
+        "icon": "Calendar"
+      },
+      {
+        "label": "Áreas Clasificadas",
+        "value": "7+",
+        "icon": "Award"
+      },
+      {
+        "label": "Jurisdicciones",
+        "value": "10+",
+        "icon": "Globe"
+      },
+      {
+        "label": "Publicaciones",
+        "value": "15+",
+        "icon": "BookOpen"
+      }
+    ],
+    "practiceAreas": [
+      {
+        "title": "Banca y Finanzas",
+        "description": "Silk Bancario del Año 2021. Experto en todos los aspectos de banca comercial y minorista, incluyendo derivados, swaps bajo ISDA, opciones, repos, productos financieros estructurados y sistemas de pago.",
+        "cases": [
+          "PCP v Barclays [2021] EWHC 307: defensa exitosa de demanda de £1.5bn por recapitalización durante crisis financiera",
+          "Marme v RBS [2019] EWHC 366: defensa exitosa de demanda de €1bn por manipulación de Euribor",
+          "Stati v Kazakhstan [2020] EWHC 916: defensa exitosa de ejecución de laudo de $500m"
+        ],
+        "iconName": "Building",
+        "color": "from-blue-500 to-cyan-500"
+      },
+      {
+        "title": "Fraude Comercial y Financiero",
+        "description": "Ha actuado en muchos de los casos de fraude comercial más grandes, complejos y de mayor perfil. Profundo conocimiento del uso y abuso de prácticas bancarias, hacking y ciberfraude.",
+        "cases": [
+          "Algosaibi v Saad (Islas Caimán): demanda de fraude de $9bn — uno de los mayores casos de fraude jamás juzgados",
+          "Qatar v Banque Havilland: conspiración bancaria internacional para manipular mercados financieros",
+          "Berkeley Square Holdings v Lancer [2021] EWCA Civ 551: demanda de soborno y fraude"
+        ],
+        "iconName": "FileText",
+        "color": "from-red-500 to-pink-500"
+      },
+      {
+        "title": "Tecnología, Blockchain, Criptoactivos e IA",
+        "description": "Uno de los muy pocos abogados con experiencia real — tanto técnica como legal — en criptoactivos. Clasificado en banda 1 por Chambers & Partners y Legal 500. Autor principal de la Declaración Legal del UKJT.",
+        "cases": [
+          "Nexo v Shulev: disputa sobre propiedad de criptomonedas de ~£30m",
+          "Asesoramiento a instituciones financieras principales sobre plataformas de trading basadas en blockchain",
+          "Actuación para exchange de criptomonedas en disputa con clientes"
+        ],
+        "iconName": "Star",
+        "color": "from-purple-500 to-indigo-500"
+      },
+      {
+        "title": "Disputas Comerciales",
+        "description": "Amplia gama de disputas comerciales significativas tanto en litigios como arbitraje, incluyendo inversiones conjuntas, comercio internacional y disputas offshore.",
+        "cases": [
+          "Renova v Emmerson (Islas Vírgenes Británicas): disputa de joint venture energético de $1bn",
+          "Atlas v Greengate [2020] EWHC 366: disputa de gestión de rascacielos residencial",
+          "CF Partners v Barclays [2014] EWHC 3049: demanda de violación de confidencialidad"
+        ],
+        "iconName": "Briefcase",
+        "color": "from-emerald-500 to-teal-500"
+      },
+      {
+        "title": "Seguros y Reaseguros",
+        "description": "Actúa en todo tipo de disputas de seguros, familiar con la operación de los principales mercados de seguros incluyendo Lloyd's.",
+        "cases": [
+          "Instrucciones para agentes de miembros, agentes de gestión, auditores de sindicatos y corredores de Lloyd's",
+          "Disputas sobre cobertura de seguros y responsabilidad profesional",
+          "Reclamaciones de reaseguro y retrocesión"
+        ],
+        "iconName": "Globe",
+        "color": "from-amber-500 to-orange-500"
+      },
+      {
+        "title": "Arbitraje Internacional",
+        "description": "Parte significativa de la práctica involucra arbitraje. Ha representado clientes en arbitrajes importantes bajo reglas ICC y LCIA en varios países.",
+        "cases": [
+          "Arbitrajes ICC y LCIA en múltiples jurisdicciones",
+          "Disputas de joint ventures y comercio internacional",
+          "Ex supervisor y examinador externo de LSE en arbitraje comercial"
+        ],
+        "iconName": "Gavel",
+        "color": "from-green-500 to-emerald-500"
+      }
+    ],
+    "achievements": [
+      "Co-Head of Chambers en 3VB",
+      "Silk Bancario del Año 2021 (Chambers)",
+      "Juez Adjunto del Tribunal Superior (2023)"
+    ],
+    "news": [
+      {
+        "title": "David Quest KC actúa para respondiente exitoso en caso del Tribunal Supremo sobre sanciones de aviación contra Rusia",
+        "date": "2025",
+        "category": "Éxito Legal"
+      },
+      {
+        "title": "Informe del UKJT sobre Control de Activos Digitales publicado",
+        "date": "2025",
+        "category": "Publicación"
+      },
+      {
+        "title": "David Quest KC nombrado para el International Jurisdiction Taskforce (IJT)",
+        "date": "2025",
+        "category": "Nombramiento"
+      }
+    ],
+    "events": [
+      {
+        "title": "Foro de Litigios Bancarios de 3VB 2025: Disputas Cripto, Roles de Intermediarios y Riesgos de Sanciones",
+        "date": "27 de noviembre de 2025",
+        "time": "4:00 pm - 6:30 pm",
+        "type": "Foro"
+      },
+      {
+        "title": "LIDW 2025: Las 3 As: África, Arbitraje e IA",
+        "date": "4 de junio de 2025",
+        "time": "5:00 pm - 6:30 pm",
+        "type": "Conferencia"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Trinity College, Cambridge",
+        "degree": "Matemáticas (Senior Scholar)",
+        "awards": [
+          "Senior Scholar",
+          "Trinity College Maitland Prize en Derecho",
+          "Lizette Bentwich Prize en Derecho"
+        ]
+      },
+      {
+        "institution": "Gray's Inn",
+        "degree": "Called to the Bar (1993)",
+        "awards": [
+          "Atkin Scholarship (Gray's Inn)",
+          "Certificado de Honor del Inns of Court School of Law"
+        ]
+      },
+      {
+        "institution": "ICL Mainframe Systems (Fujitsu)",
+        "degree": "Investigador en desarrollo de software",
+        "awards": [
+          "SB Marsh Scholarship",
+          "Desarrollo de software para diseño automatizado de componentes"
+        ]
+      }
+    ],
+    "pdfUrl": "/assets/Pdf/david-quest-kc.pdf",
+    "cardQuote": "David Quest es fenomenalmente brillante, práctico y con los pies en la tierra. Su presencia en el tribunal es formidable. Es un acto de clase y un genio.",
+    "cardQuoteSource": "Chambers & Partners / Legal 500 UK Bar (2026)"
+  },
+  {
+    "id": "rory-phillips-kc",
+    "name": "Rory Phillips KC",
+    "badge": "KC",
+    "badgeColors": {
+      "from": "yellow-400",
+      "to": "yellow-600",
+      "textColor": "black"
+    },
+    "heroGradient": "from-slate-900 via-purple-900 to-slate-800",
+    "accentColor": "purple",
+    "title": "King's Counsel",
+    "specialty": "Servicios Financieros y Derecho Público",
+    "bio": "Práctica excepcionalmente amplia en derecho comercial y público. Gran experiencia liderando y gestionando litigios sustanciales y de alto perfil, frecuentemente instruido en casos de la mayor sensibilidad y en nuevas áreas del derecho.",
+    "fullDescription": [
+      "Rory Phillips tiene una práctica excepcionalmente amplia en los campos del derecho comercial y público. Tiene una experiencia muy considerable liderando y gestionando litigios sustanciales y de alto perfil, y es frecuentemente instruido en casos de la mayor sensibilidad, en nuevas áreas del derecho o donde se requiere innovación procesal.",
+      "Tiene experiencia muy considerable en servicios financieros y trabajo regulatorio, campo en el cual puede aprovechar su experiencia tanto en derecho comercial como público. Ha asesorado a los reguladores del Reino Unido en una amplia gama de casos a lo largo de muchos años.",
+      "En 2019, lideró el equipo de abogados que actuó para Sir Ross Cranston en su Revisión del Customer Review establecido por Lloyds Bank para compensar a clientes por pérdidas derivadas de fraude en la oficina de HBOS Impaired Assets en Reading.",
+      "Es Counsel del Cranston Inquiry, encargado de examinar las circunstancias en que hasta treinta personas murieron intentando cruzar el Canal de la Mancha en noviembre de 2021. El informe de la Investigación fue publicado el 5 de febrero de 2026."
+    ],
+    "experience": "41+ años de experiencia",
+    "countries": [
+      "Reino Unido",
+      "Internacional"
+    ],
+    "languages": [
+      "Inglés"
+    ],
+    "rating": 4.9,
+    "emails": [
+      {
+        "address": "rphillips@3vb.com",
+        "primary": true
+      },
+      {
+        "address": "SilksPMs@3vb.com",
+        "primary": false
+      }
+    ],
+    "colegiacion": "1984",
+    "silkYear": "2002",
+    "quotes": [
+      {
+        "text": "Rory Phillips KC es un orador soberbio. Es increíblemente impresionante; realmente domina la sala. También es excelente con los clientes.",
+        "source": "Chambers & Partners UK (2026)"
+      },
+      {
+        "text": "Más que un par de manos seguras, puedo confiar en que Rory tome decisiones difíciles y las tome correctamente cada vez, lo cual es realmente excepcional.",
+        "source": "Chambers & Partners UK (2026)"
+      },
+      {
+        "text": "Su enfoque metódico, calmado y amigable se combina con un intelecto devastadoramente rápido. Rory impresiona con su capacidad para dominar un asunto complicado y presentarlo impecablemente.",
+        "source": "Chambers & Partners UK (2026)"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Años de Experiencia",
+        "value": "41+",
+        "icon": "Calendar"
+      },
+      {
+        "label": "Investigaciones Públicas",
+        "value": "10+",
+        "icon": "Award"
+      },
+      {
+        "label": "Jurisdicciones",
+        "value": "5+",
+        "icon": "Globe"
+      },
+      {
+        "label": "Áreas de Práctica",
+        "value": "5+",
+        "icon": "BookOpen"
+      }
+    ],
+    "practiceAreas": [
+      {
+        "title": "Servicios Financieros",
+        "description": "Experiencia muy considerable en servicios financieros y trabajo regulatorio. Ha asesorado a los reguladores del Reino Unido en amplia gama de casos. Experiencia en transferencias Part VII FSMA en campos de seguros y banca.",
+        "cases": [
+          "Cranston Review: asesoró sobre el esquema de compensación de Lloyds Bank por fraude en HBOS Reading",
+          "Proceso de apelaciones de Lloyds Banking Group: establecido y gestionado desde 2020",
+          "Asesoramiento a aseguradoras y empresas de pensiones sobre modelos de negocio y cumplimiento regulatorio"
+        ],
+        "iconName": "Building",
+        "color": "from-blue-500 to-cyan-500"
+      },
+      {
+        "title": "Derecho Público",
+        "description": "Trabajo para departamentos y agencias gubernamentales en casos significativos, sensibles y de alto perfil, con enfoque particular en seguridad nacional.",
+        "cases": [
+          "L1T FM Holdings UK Ltd v Secretary of State [2024] EWHC 2963: primer judicial review bajo la National Security and Investment Act 2021",
+          "Al-Hawsawi v Security Service [2025] UKIPTrib 11: quejas de detenidos de Guantánamo Bay desestimadas",
+          "[2025] EWCA Civ 1528: primera consideración de la NSIA por el Tribunal de Apelación"
+        ],
+        "iconName": "Gavel",
+        "color": "from-purple-500 to-indigo-500"
+      },
+      {
+        "title": "Investigaciones e Inquiries",
+        "description": "Extensa experiencia como Counsel en investigaciones públicas de alto perfil, incluyendo la COVID-19 Inquiry y el Cranston Inquiry.",
+        "cases": [
+          "Cranston Inquiry: Counsel sobre el cruce fatal del Canal de la Mancha en noviembre 2021 (informe publicado febrero 2026)",
+          "COVID-19 Inquiry: representó al National Police Chiefs Council en Módulos 1, 2 y 2A-C (2023-2024)",
+          "Independent Inquiry into Child Sexual Abuse: representó al Ecclesiastical Insurance Office"
+        ],
+        "iconName": "FileText",
+        "color": "from-red-500 to-pink-500"
+      },
+      {
+        "title": "Seguros y Reaseguros",
+        "description": "Durante más de 25 años involucrado en una serie de casos derivados de disputas y problemas en el mercado de seguros y reaseguros.",
+        "cases": [
+          "Disputas en el mercado de seguros y reaseguros durante más de 25 años",
+          "Trabajo regulatorio de seguros incluyendo perimeter guidance",
+          "Transferencias Part VII de negocios de seguros"
+        ],
+        "iconName": "Globe",
+        "color": "from-amber-500 to-orange-500"
+      },
+      {
+        "title": "Litigios Comerciales",
+        "description": "Regularmente consultado para asesoría estratégica en litigios de alto valor y alto perfil, frecuentemente con dimensión multi-jurisdiccional.",
+        "cases": [
+          "Asesoría estratégica a clientes privados de alto patrimonio neto en litigios de alto valor",
+          "Litigios corporativos con dimensión multi-jurisdiccional",
+          "Casos que requieren innovación procesal y nuevas áreas del derecho"
+        ],
+        "iconName": "Briefcase",
+        "color": "from-emerald-500 to-teal-500"
+      }
+    ],
+    "achievements": [
+      "Counsel del Cranston Inquiry",
+      "Representó NPCC en COVID-19 Inquiry",
+      "Primer caso bajo NSIA 2021"
+    ],
+    "news": [
+      {
+        "title": "Rory Phillips KC y Emmanuel Sheppard exitosos en primera decisión del Tribunal de Apelación sobre la National Security and Investment Act 2021",
+        "date": "2025",
+        "category": "Éxito Legal"
+      },
+      {
+        "title": "Rory Phillips KC aparece en caso histórico del IPT sobre detenidos de Guantánamo Bay",
+        "date": "2025",
+        "category": "Éxito Legal"
+      },
+      {
+        "title": "Audiencias completas del Cranston Inquiry comienzan el 3 de marzo de 2025",
+        "date": "2025",
+        "category": "Investigación"
+      }
+    ],
+    "events": [],
+    "education": [
+      {
+        "institution": "Publicaciones",
+        "degree": "Autor y Colaborador",
+        "awards": [
+          "Capítulo sobre la NSIA 2021 en National Security Law, Procedure and Practice (OUP, 2024, 2ª ed.) — con Georgina Wolfe"
+        ]
+      },
+      {
+        "institution": "Membresías",
+        "degree": "Profesional",
+        "awards": [
+          "Clasificado en Chambers & Partners y Legal 500",
+          "Servicios Financieros, Derecho Público, Seguros"
+        ]
+      }
+    ],
+    "pdfUrl": "/assets/Pdf/rory-phillips-kc.pdf",
+    "cardQuote": "Rory Phillips KC es un orador soberbio. Realmente domina la sala. Su enfoque metódico se combina con un intelecto devastadoramente rápido.",
+    "cardQuoteSource": "Chambers & Partners UK (2026)"
+  },
+  {
+    "id": "adam-kramer-kc",
+    "name": "Adam Kramer KC",
+    "badge": "KC",
+    "badgeColors": {
+      "from": "yellow-400",
+      "to": "yellow-600",
+      "textColor": "black"
+    },
+    "heroGradient": "from-slate-900 via-blue-900 to-slate-800",
+    "accentColor": "blue",
+    "title": "King's Counsel",
+    "specialty": "Litigios Comerciales y Daños Contractuales",
+    "bio": "KC desde 2021 tras una carrera estelar como uno de los mejores juniors comerciales. Conocido por combinar un enfoque de trabajo en equipo sin pretensiones con una defensa contundente pero encantadora, y un profundo conocimiento del derecho. Autor del texto líder 'The Law of Contract Damages'.",
+    "fullDescription": [
+      "Adam ha sido KC desde 2021, tras una carrera estelar como uno de los mejores juniors comerciales del país (Junior del Año de Chambers & Partners para Banca en 2015 y Disputas Comerciales en 2017).",
+      "Es conocido por combinar un enfoque de trabajo en equipo sin pretensiones con una defensa contundente pero encantadora en tribunales y arbitrajes, y un profundo conocimiento del derecho — es el autor único del texto líder para profesionales 'The Law of Contract Damages', frecuentemente citado por tribunales.",
+      "Es instruido en muchas de las disputas principales de la actualidad, manteniendo una práctica de primera línea en toda la amplitud de litigios y arbitraje comercial, con experiencia particular en grandes litigios, juicios largos, quantum, fraude y demandas grupales.",
+      "Sus rankings se extienden a ocho áreas como silk: Banca y Finanzas, Chancery Comercial, Fraude Civil, Litigios Comerciales, Commodities/Energía, Litigios Grupales, Insolvencia, y Seguros y Reaseguros."
+    ],
+    "experience": "21+ años de experiencia",
+    "countries": [
+      "Reino Unido",
+      "Internacional",
+      "París",
+      "Singapur"
+    ],
+    "languages": [
+      "Inglés"
+    ],
+    "rating": 4.9,
+    "emails": [
+      {
+        "address": "akramer@3vb.com",
+        "primary": true
+      },
+      {
+        "address": "SilksPMs@3vb.com",
+        "primary": false
+      }
+    ],
+    "colegiacion": "2004",
+    "silkYear": "2021",
+    "quotes": [
+      {
+        "text": "Un silk excepcional que tiene un historial demostrado de éxito y debe ser considerado para cualquier asunto de peso.",
+        "source": "Legal 500 UK Bar (2026)"
+      },
+      {
+        "text": "Es capaz de hacer argumentos novedosos y creativos, lo cual no es tarea fácil. Adam es una estrella destacada cuando aborda argumentos difíciles.",
+        "source": "Chambers & Partners UK Bar (2026)"
+      },
+      {
+        "text": "Tiene calidad de estrella. Es muy inteligente. Siempre tiene la atención del juez. Es un experto destacado en quantum y daños y absolutamente brillante.",
+        "source": "Chambers & Partners UK Bar (2026)"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Años de Experiencia",
+        "value": "21+",
+        "icon": "Calendar"
+      },
+      {
+        "label": "Áreas Clasificadas",
+        "value": "8",
+        "icon": "Award"
+      },
+      {
+        "label": "Jurisdicciones",
+        "value": "8+",
+        "icon": "Globe"
+      },
+      {
+        "label": "Publicaciones",
+        "value": "30+",
+        "icon": "BookOpen"
+      }
+    ],
+    "practiceAreas": [
+      {
+        "title": "Litigios Comerciales",
+        "description": "Práctica de larga data en el más alto nivel de litigios comerciales, clasificado en siete áreas. Actúa en muchos casos de alto perfil, especialmente fraudes complejos multi-parte y disputas bancarias.",
+        "cases": [
+          "Glencore securities claim: co-lead counsel en demanda grupal masiva s90/s90A FSMA",
+          "Phones 4U [2023] EWHC 2826 (Ch): defensa de demanda de colusión de £1bn en juicio de 10 semanas",
+          "Henderson & Jones Ltd v Barclays [2023] EWHC 1276 (Ch): demanda de fraude de £40m, juicio de 4 semanas"
+        ],
+        "iconName": "Briefcase",
+        "color": "from-emerald-500 to-teal-500"
+      },
+      {
+        "title": "Fraude Civil",
+        "description": "Continúa actuando en muchas de las disputas de fraude líderes. Experiencia sustancial en interlocutorias típicas de fraude y juicios largos.",
+        "cases": [
+          "PIFSS (Kuwait) v Al-Rajaan: lead counsel para dos demandados en demanda de soborno internacional",
+          "Ivanhoe Mines Ltd v Gardner [2020] EWHC 144: obtuvo injunción de congelamiento y notificación",
+          "JSC BM-Bank v Kekhman [2018] EWHC 791: sentencia de $150m en demanda de fraude ruso"
+        ],
+        "iconName": "FileText",
+        "color": "from-red-500 to-pink-500"
+      },
+      {
+        "title": "Seguros y Reaseguros",
+        "description": "Experto líder en seguros de interrupción de negocio y COVID-19. Actuó para los asegurados en múltiples casos test incluyendo FCA v Arch en el Tribunal Supremo.",
+        "cases": [
+          "FCA v Arch Insurance [2021] AC 649 (Tribunal Supremo): caso test exitoso de interrupción de negocio COVID-19",
+          "Stonegate Pub Company v MS Amlin [2022] EWHC 2548: caso test de agregación y furlough de £850m",
+          "Liberty Mutual v Bath Racecourse [2025] EWCA Civ 153: apelación de furlough al Tribunal Supremo"
+        ],
+        "iconName": "Globe",
+        "color": "from-amber-500 to-orange-500"
+      },
+      {
+        "title": "Banca y Finanzas",
+        "description": "Extensa experiencia en litigios bancarios, clasificado en el nivel más alto durante varios años. Ganador del Junior Bancario del Año 2015 de Chambers.",
+        "cases": [
+          "Tecnimont Arabia Ltd v Nat West [2022] EWHC 1172: defensa de banco receptor contra fraude de push payment",
+          "Portland Stone Firms v Barclays [2018] EWHC 2341: desestimación de demanda de £10m",
+          "RBS Rights Issue Litigation: demanda de prospecto s90 FSMA que llevó a acuerdo masivo"
+        ],
+        "iconName": "Building",
+        "color": "from-blue-500 to-cyan-500"
+      },
+      {
+        "title": "Litigios Grupales",
+        "description": "Uno de los abogados comerciales más experimentados en litigios grupales y multi-parte. Clasificado en banda 1 por Chambers & Partners.",
+        "cases": [
+          "Diesel NOx emissions GLOs: co-lead counsel para grupos de demandantes contra Mercedes y otros fabricantes",
+          "Hamon v UCL: demanda grupal por enseñanza durante COVID-19 (juicio primavera 2026)",
+          "Volkswagen GLO claim: £193m de acuerdo en 2022"
+        ],
+        "iconName": "Users",
+        "color": "from-purple-500 to-indigo-500"
+      },
+      {
+        "title": "Commodities, Energía y Recursos Naturales",
+        "description": "Especialización desarrollada en disputas de commodities, energía y recursos naturales de todo tipo, típicamente como lead o sole advocate.",
+        "cases": [
+          "Arbitraje ICC de $40m sobre comercio de commodities en el este asiático",
+          "Disputa LCIA de $1.1bn sobre suministro de turbinas en Angola",
+          "Arbitraje ICC en París sobre sanciones internacionales a Irán y maquinaria de extracción petrolera"
+        ],
+        "iconName": "Star",
+        "color": "from-green-500 to-emerald-500"
+      }
+    ],
+    "achievements": [
+      "Junior Comercial del Año 2017 (Chambers)",
+      "Junior Bancario del Año 2015 (Chambers)",
+      "Autor de 'The Law of Contract Damages' (3ª ed.)"
+    ],
+    "news": [
+      {
+        "title": "Miembros de 3VB destacados en los 20 mejores casos de 2026 de The Lawyer",
+        "date": "2026",
+        "category": "Reconocimiento"
+      },
+      {
+        "title": "4ª Edición de The Law of Contract Damages publicada",
+        "date": "2025",
+        "category": "Publicación"
+      },
+      {
+        "title": "Adam Kramer KC nombrado Juez Adjunto del Tribunal Superior",
+        "date": "2025",
+        "category": "Nombramiento"
+      }
+    ],
+    "events": [
+      {
+        "title": "Conferencia de Litigios Grupales de 3VB 2025",
+        "date": "6 de marzo de 2025",
+        "time": "5:30 pm - 7:30 pm",
+        "type": "Conferencia"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Oxford University",
+        "degree": "BA Jurisprudence (2º más alto del año)",
+        "awards": [
+          "Proxime accessit al Martin Wronker Prize",
+          "Gibbs Prize for Law",
+          "Richards Butler Prize for International Trade Law"
+        ]
+      },
+      {
+        "institution": "McGill University",
+        "degree": "LLM",
+        "awards": [
+          "Institute of Comparative Law Essay Prize",
+          "Dean's Honour List",
+          "Canadian Rhodes Scholars Foundation Scholarship"
+        ]
+      },
+      {
+        "institution": "Gray's Inn",
+        "degree": "Called to the Bar",
+        "awards": [
+          "Arden Scholar",
+          "Lee Essay Prize",
+          "Bedingfield Scholar"
+        ]
+      }
+    ],
+    "pdfUrl": "/assets/Pdf/adam-kramer-kc.pdf",
+    "cardQuote": "Un silk excepcional con historial demostrado de éxito. Tiene calidad de estrella, es muy inteligente y siempre tiene la atención del juez. Absolutamente brillante.",
+    "cardQuoteSource": "Legal 500 / Chambers & Partners UK Bar (2026)"
+  }
+]

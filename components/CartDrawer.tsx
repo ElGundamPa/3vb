@@ -6,63 +6,42 @@ import { SafeIcon } from "./SafeIcon";
 import { useCartStore, type CartItem } from "@/lib/cart-store";
 import { formatPrice } from "@/lib/utils";
 import Link from "next/link";
-import Image from 'next/image';
-import { useCallback, useState } from "react";
+import { useCallback, useState, useEffect } from "react";
 import { useLockBodyScroll } from "@/hooks/useLockBodyScroll";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
-
-const abogados = [
-  {
-    id: "william-edwards",
-    name: "William Edwards KC",
-    title: "King's Counsel",
-    specialty: "Litigios Comerciales",
-    image: "/assets/abogados/William-Edwards.jpg",
-  },
-  {
-    id: "lisa-lacob",
-    name: "Lisa Lacob",
-    title: "Senior Junior",
-    specialty: "Banca y Servicios Financieros",
-    image: "/assets/abogados/Lisa-Lacob.jpg",
-  },
-  {
-    id: "tom-montagu-smith",
-    name: "Tom Montagu-Smith KC",
-    title: "King's Counsel",
-    specialty: "Disputas Comerciales",
-    image: "/assets/abogados/Tom-Montagu-Smith-QC.jpg",
-  },
-];
-
-interface CartItemProps {
-  item: CartItem;
-  onRemove: (id: string) => void;
-  onUpdateAbogado: (itemId: string, abogado: Lawyer | null) => void;
-}
 
 interface Lawyer {
   id: string;
   name: string;
   specialty: string;
-  image: string;
   title: string;
+}
+
+interface CartItemProps {
+  item: CartItem;
+  onRemove: (id: string) => void;
+  onUpdateAbogado: (itemId: string, abogado: (Lawyer & { image: string }) | null) => void;
+  abogados: Lawyer[];
 }
 
 interface LawyerDropdownProps {
   value: string;
-  onChange: (abogado: Lawyer | null) => void;
+  onChange: (abogado: (Lawyer & { image: string }) | null) => void;
+  abogados: Lawyer[];
 }
 
-function LawyerDropdown({ value, onChange }: LawyerDropdownProps) {
+function LawyerDropdown({ value, onChange, abogados }: LawyerDropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const selectedAbogado = value ? abogados.find(a => a.id === value) : null;
 
   const handleSelect = (abogado: Lawyer | null) => {
-    onChange(abogado);
+    if (abogado) {
+      onChange({ ...abogado, image: "" });
+    } else {
+      onChange(null);
+    }
     setIsOpen(false);
   };
-
 
   return (
     <div className="relative">
@@ -72,23 +51,12 @@ function LawyerDropdown({ value, onChange }: LawyerDropdownProps) {
         className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-left flex items-center justify-between"
       >
         <div className="flex items-center gap-3">
-              {selectedAbogado ? (
+          {selectedAbogado ? (
             <>
-              <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-200 dark:bg-gray-600 flex-shrink-0">
-                <Image
-                  src={selectedAbogado.image}
-                  alt={selectedAbogado.name}
-                  width={32}
-                  height={32}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    console.error('Error loading dropdown image:', selectedAbogado.image);
-                    (e.target as HTMLImageElement).style.display = 'none';
-                  }}
-                  onLoadingComplete={() => {
-                    console.log('Dropdown image loaded:', selectedAbogado.image);
-                  }}
-                />
+              <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
+                <span className="text-xs font-bold text-blue-600 dark:text-blue-400">
+                  {selectedAbogado.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                </span>
               </div>
               <span className="text-sm">{selectedAbogado.name} — {selectedAbogado.specialty}</span>
             </>
@@ -124,21 +92,10 @@ function LawyerDropdown({ value, onChange }: LawyerDropdownProps) {
                 onClick={() => handleSelect(abogado)}
                 className="w-full px-3 py-2 text-left hover:bg-gray-100 dark:hover:bg-gray-600 flex items-center gap-3"
               >
-                  <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-200 dark:bg-gray-600 flex-shrink-0">
-                  <Image
-                    src={abogado.image}
-                    alt={abogado.name}
-                    width={32}
-                    height={32}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      console.error('Error loading dropdown image:', abogado.image);
-                      (e.target as HTMLImageElement).style.display = 'none';
-                    }}
-                    onLoadingComplete={() => {
-                      console.log('Dropdown image loaded:', abogado.image);
-                    }}
-                  />
+                <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs font-bold text-blue-600 dark:text-blue-400">
+                    {abogado.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                  </span>
                 </div>
                 <div>
                   <div className="font-medium text-sm">{abogado.name}</div>
@@ -153,7 +110,7 @@ function LawyerDropdown({ value, onChange }: LawyerDropdownProps) {
   );
 }
 
-function CartItemComponent({ item, onRemove, onUpdateAbogado }: CartItemProps) {
+function CartItemComponent({ item, onRemove, onUpdateAbogado, abogados }: CartItemProps) {
   return (
     <motion.div
       layout
@@ -188,26 +145,16 @@ function CartItemComponent({ item, onRemove, onUpdateAbogado }: CartItemProps) {
           <LawyerDropdown
             value={item.abogado?.id?.toString() || ""}
             onChange={(abogado) => onUpdateAbogado(item.id, abogado)}
+            abogados={abogados}
           />
         </div>
 
         {item.abogado && (
           <div className="flex items-center gap-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-            <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-200 dark:bg-gray-600 flex-shrink-0">
-              <Image
-                src={item.abogado.image}
-                alt={item.abogado.name}
-                width={48}
-                height={48}
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  console.error('Error loading selected lawyer image:', item.abogado?.image);
-                  (e.target as HTMLImageElement).style.display = 'none';
-                }}
-                onLoadingComplete={() => {
-                  console.log('Selected lawyer image loaded:', item.abogado?.image);
-                }}
-              />
+            <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
+              <span className="text-sm font-bold text-blue-600 dark:text-blue-400">
+                {item.abogado.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+              </span>
             </div>
             <div className="flex-1">
               <p className="font-medium text-sm text-gray-900 dark:text-white">
@@ -237,18 +184,21 @@ export function CartDrawer() {
     getItemCount,
   } = useCartStore();
 
+  const [abogados, setAbogados] = useState<Lawyer[]>([]);
+
+  useEffect(() => {
+    fetch("/api/lawyers")
+      .then((r) => r.json())
+      .then((data) => setAbogados(data))
+      .catch(() => {});
+  }, []);
+
   const containerRef = useFocusTrap(isOpen);
   const totalPrice = getTotalPrice();
   const itemCount = getItemCount();
 
-  // Bloquear scroll del body
   useLockBodyScroll(isOpen);
-  
-  // Focus trap
-  // `useFocusTrap` returns a ref when called with the active flag.
-  // We already assigned `containerRef` above using the hook, so there's no need to call it again here.
 
-  // Manejar clicks en el backdrop
   const handleBackdropClick = useCallback((e: React.MouseEvent) => {
     if (e.target === e.currentTarget) {
       closeCart();
@@ -259,7 +209,6 @@ export function CartDrawer() {
     <AnimatePresence>
       {isOpen && (
         <>
-          {/* Backdrop con blur */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -269,7 +218,6 @@ export function CartDrawer() {
             style={{ touchAction: 'none' }}
           />
 
-          {/* Cart Panel - Estructura de 3 secciones */}
           <motion.div
             ref={containerRef}
             initial={{ x: "100%" }}
@@ -277,11 +225,8 @@ export function CartDrawer() {
             exit={{ x: "100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
             className="fixed right-0 top-0 h-screen w-full max-w-md bg-white dark:bg-gray-900 shadow-2xl z-50"
-            style={{ 
-              touchAction: 'pan-y'
-            }}
+            style={{ touchAction: 'pan-y' }}
           >
-            {/* Header */}
             <div className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 p-6">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
@@ -300,10 +245,7 @@ export function CartDrawer() {
               </div>
             </div>
 
-            {/* Contenido - Área scrollable */}
-            <div 
-              className="overflow-y-scroll p-6 max-h-[60vh]"
-            >
+            <div className="overflow-y-scroll p-6 max-h-[60vh]">
               <div className="space-y-4">
                 {items.length === 0 ? (
                   <div className="text-center py-12">
@@ -330,6 +272,7 @@ export function CartDrawer() {
                         item={item}
                         onRemove={removeItem}
                         onUpdateAbogado={updateAbogado}
+                        abogados={abogados}
                       />
                     ))}
                   </div>
@@ -337,7 +280,6 @@ export function CartDrawer() {
               </div>
             </div>
 
-            {/* Footer - Fijo al fondo */}
             {items.length > 0 && (
               <div className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
                 <div className="p-6 space-y-4">

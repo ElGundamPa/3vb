@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { LazyWrapper } from "./LazyWrapper";
 import { Download, Globe, Award, Star, FileText } from "lucide-react";
 
@@ -13,13 +12,13 @@ interface AbogadoCardProps {
     title: string;
     specialty: string;
     experience: string;
-    image: string;
+    image?: string;
     bio: string;
     quote: string;
     quoteSource: string;
     achievements: string[];
     languages: string[];
-    pdfUrl: string;
+    pdfUrl?: string;
   };
   index: number;
 }
@@ -45,26 +44,6 @@ export function AbogadoCard({ abogado, index }: AbogadoCardProps) {
           <div className="relative z-10">
             {/* Header con imagen y título */}
             <div className="text-center mb-6">
-              {/* Imagen del abogado */}
-              <div className="relative mb-4 flex justify-center">
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  transition={{ duration: 0.3 }}
-                  className="relative w-28 h-28 rounded-full overflow-hidden border-4 border-blue-100 dark:border-blue-800 group-hover:border-blue-200 dark:group-hover:border-blue-600 transition-colors duration-300 shadow-lg"
-                >
-                  <Image
-                    src={abogado.image}
-                    alt={abogado.name}
-                    width={112}
-                    height={112}
-                    className="object-cover w-full h-full"
-                    priority={index < 3}
-                  />
-                  {/* Overlay profesional */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </motion.div>
-              </div>
-
               {/* Información principal */}
               <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                 {abogado.name}
@@ -150,16 +129,18 @@ export function AbogadoCard({ abogado, index }: AbogadoCardProps) {
                   </span>
                 </div>
               )}
-              <a
-                href={abogado.pdfUrl}
-                download={`${abogado.name.replace(/\s+/g, '_')}_CV.pdf`}
-                className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-4 py-3 rounded-xl font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-lg group/btn"
-                onClick={(e) => e.stopPropagation()}
-              >
-                <FileText className="h-4 w-4" />
-                <Download className="h-4 w-4" />
-                Descargar Hoja de Vida
-              </a>
+              {abogado.pdfUrl && (
+                <a
+                  href={abogado.pdfUrl}
+                  download={`${abogado.name.replace(/\s+/g, '_')}_CV.pdf`}
+                  className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-4 py-3 rounded-xl font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-lg group/btn"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <FileText className="h-4 w-4" />
+                  <Download className="h-4 w-4" />
+                  Descargar Hoja de Vida
+                </a>
+              )}
             </div>
           </div>
         </div>
